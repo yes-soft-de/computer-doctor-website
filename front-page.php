@@ -4,15 +4,15 @@
 <div class="header-section text-center">
     <div class="container">
         <div class="row">
-            <div class="col-md-7 pt-5">
-                <p>laptop and macbook</p>
+            <div class="col-12">
+                <p>laptop and mac book</p>
                 <h1>TECHNICAL ASSISTANCE</h1>
                 <hr>
                 <button>learn more</button>
             </div>
-            <div class="col-md-5">
-                <img class="img-fluid" alt="NotBook Logo" src="<?php echo get_template_directory_uri() . '/img/Header-Logo.png' ?>" />
-            </div>
+           <!-- <div class="col-md-5">
+                <img class="img-fluid" alt="NotBook Logo" src="<?php /*echo get_template_directory_uri() . '/img/Header-Logo.png' */?>" />
+            </div>-->
         </div>
     </div>
 </div>

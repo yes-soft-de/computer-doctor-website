@@ -2,14 +2,41 @@
 *{
     font-family: Arial,sans-serif;
 }
+/*a {*/
+    /*color: #333*/
+/*}*/
 a {
-    color: #333
+    text-decoration: none;
+    color: inherit;
 }
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Start Header Section*/
+header a {
+    -webkit-transition: color ease-in-out 400ms;
+    -moz-transition: color ease-in-out 400ms;
+    -o-transition: color ease-in-out 400ms;
+    transition: color ease-in-out 400ms;
+}
+body > header {
+    font-size: 12px;
+    padding: .5rem 10rem!important;
+    background: #f2f2f2;
+    color:#737373;
+}
+header a:hover {
+    color: black;
+}
+header .register a:not(:last-child):after {
+    content: '|';
+    margin: auto 10px ;
+}
+/*End Header Section*/
 
 /*Start NavBar Section*/
-.second-navbar {
-
-}
 .navbar-brand {
     font-weight: bold;
 }
@@ -20,22 +47,18 @@ a {
 
 /*Start Header Section*/
 .header-section {
-    background-color: #333;
+    background: #333333 url("");
     color: #fff;
-    padding: 50px 0; 
+    padding: 200px 10px;
     text-transform:uppercase;
 }
-.header-section p {
-    padding-top: 70px
-}
 .header-section h1 {
-    margin-top: 40px
+    margin-top: 31px
 }
 .header-section hr {
-    width: 14%;
+    width: 15%;
     height: 1px;
-    margin-top: 35px;
-    margin-bottom: 32px;
+    margin: 31px auto;
     background: #fff;
 }
 .header-section button {
@@ -45,11 +68,11 @@ a {
     border: 3px solid #fff;
     text-transform: uppercase;
 }
-@media (max-width: 992px) {
+/*@media (max-width: 992px) {
     .header-section .row > div:nth-child(2) {
         display: none;
     }
-}
+}*/
 /*End Header Section*/
 
 /*Start Services Section*/

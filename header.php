@@ -10,19 +10,19 @@
     <?php wp_head() ?>
 </head>
 <body>
-    <!--Start NavBar-->
-    <nav class="navbar navbar-expand-md navbar-white bg-white custom-nav">
-        <div class="container">
-            <span class="mx-3">
-                +5511947745838
-            </span>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <nav class="second-navbar">
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <?php spark_position_custom_menu(); ?>
-            </div>
+    </nav>
+    <!--Start NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white px-5">
+        <a class="navbar-brand" href="#">NoteBook <span class="text-danger">Doctor</span></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <?php spark_position_custom_menu(); ?>
         </div>
     </nav>
     <!--End NavBar-->

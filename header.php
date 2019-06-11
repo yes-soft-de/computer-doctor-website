@@ -9,7 +9,7 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url')?>" />
     <?php wp_head() ?>
     <style>
-        .header-section {
+        .header {
             background: #333333 url("<?php echo get_template_directory_uri() . '/img/bg.jpg'?>") no-repeat;
             -webkit-background-size: cover;
             -moz-background-size: cover;

@@ -1,14 +1,13 @@
 /*Global Style*/
-*{
-    font-family: Arial,sans-serif;
+* {
+    font-family: Arial, sans-serif;
 }
-/*a {*/
-    /*color: #333*/
-/*}*/
+
 a {
     text-decoration: none;
     color: inherit;
 }
+
 a:hover {
     text-decoration: none;
     color: inherit;
@@ -21,25 +20,30 @@ header a {
     -o-transition: color ease-in-out 400ms;
     transition: color ease-in-out 400ms;
 }
+
 body > header {
     font-size: 12px;
-    padding: .5rem 10rem!important;
+    padding: .5rem 10rem !important;
     background: #f2f2f2;
-    color:#737373;
+    color: #737373;
 }
+
 header a:hover {
     color: black;
 }
+
 header .register a:not(:last-child):after {
     content: '|';
-    margin: auto 10px ;
+    margin: auto 10px;
 }
+
 /*End Header Section*/
 
 /*Start NavBar Section*/
 .navbar-brand {
     font-weight: bold;
 }
+
 .navbar li:not(:last-of-type) {
     padding: 0 15px
 }
@@ -47,32 +51,68 @@ header .register a:not(:last-child):after {
 
 /*Start Header Section*/
 .header-section {
-    background: #333333 url("");
+    position: relative;
+    z-index: 0;
+    /* background img inside header.php page */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     color: #fff;
-    padding: 200px 10px;
-    text-transform:uppercase;
+    padding: 0;
+    text-transform: uppercase;
 }
+
+.header-section:after {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+.header-section p,
+.header-section h1,
+.header-section button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-section p {
+
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 24px;
+    letter-spacing: 2px;
+    margin-top: 200px;
+}
+
 .header-section h1 {
-    margin-top: 31px
+    margin-top: 31px;
+    font-size: 42px;
+    color: #ffffff;
+    line-height: 48px;
+    letter-spacing: 4px;
 }
+
 .header-section hr {
     width: 15%;
     height: 1px;
     margin: 31px auto;
     background: #fff;
 }
+
 .header-section button {
+    cursor: pointer;
     background: transparent;
     color: #fff;
     padding: 10px 35px;
+    margin-bottom: 200px;
     border: 3px solid #fff;
     text-transform: uppercase;
 }
-/*@media (max-width: 992px) {
-    .header-section .row > div:nth-child(2) {
-        display: none;
-    }
-}*/
 /*End Header Section*/
 
 /*Start Services Section*/
@@ -80,6 +120,7 @@ header .register a:not(:last-child):after {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 .services .card {
     border: none
 }

@@ -8,6 +8,12 @@
     <title><?php bloginfo('name') ?></title>
     <link rel="pingback" href="<?php bloginfo('pingback_url')?>" />
     <?php wp_head() ?>
+    <style>
+        .header-section {
+            background: #333333 url("<?php echo get_template_directory_uri() . '/img/laptop-min.jpg'?>") no-repeat;
+
+        }
+    </style>
 </head>
 <body>
     <!--Header-->

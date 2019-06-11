@@ -44,9 +44,10 @@ header .register a:not(:last-child):after {
     font-weight: bold;
 }
 
-.navbar li:not(:last-of-type) {
-    padding: 0 15px
+.navbar li {
+    padding-left: 15px
 }
+
 /*End NavBar Section*/
 
 /*Start Header Section*/
@@ -54,13 +55,8 @@ header .register a:not(:last-child):after {
     position: relative;
     z-index: 0;
     /* background img inside header.php page */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     color: #fff;
     padding: 0;
-    text-transform: uppercase;
 }
 
 .header-section:after {
@@ -71,17 +67,17 @@ header .register a:not(:last-child):after {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(51, 51, 51, 0.5);
+    background-color: rgba(27, 19, 20, 0.6);
 }
 
 .header-section p,
 .header-section h1,
 .header-section button {
     font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
 }
 
 .header-section p {
-
     font-size: 15px;
     color: #ffffff;
     line-height: 24px;
@@ -111,8 +107,8 @@ header .register a:not(:last-child):after {
     padding: 10px 35px;
     margin-bottom: 200px;
     border: 3px solid #fff;
-    text-transform: uppercase;
 }
+
 /*End Header Section*/
 
 /*Start Services Section*/
@@ -124,10 +120,12 @@ header .register a:not(:last-child):after {
 .services .card {
     border: none
 }
+
 /*End Services Section*/
 
 /*Start Footer*/
 footer {
     color: #fff
 }
+
 /*End Footer*/

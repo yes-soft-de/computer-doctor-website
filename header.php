@@ -10,8 +10,11 @@
     <?php wp_head() ?>
     <style>
         .header-section {
-            background: #333333 url("<?php echo get_template_directory_uri() . '/img/laptop-min.jpg'?>") no-repeat;
-
+            background: #333333 url("<?php echo get_template_directory_uri() . '/img/bg.jpg'?>") no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
         }
     </style>
 </head>

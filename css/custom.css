@@ -236,5 +236,7 @@ footer {
     letter-spacing: 1px;
     line-height: 24px;
 }
-
+footer img {
+    height: 125px;
+}
 /*End Footer*/

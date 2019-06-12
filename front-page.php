@@ -19,7 +19,7 @@
     <div class="services text-center">
         <div class="container d-sm-block d-md-flex justify-content-md-center">
             <div class="s-card m-auto " style="width: 287px;">
-                <img class="s-card-img" src="<?php echo get_template_directory_uri() . '/img/laptop-min.jpg' ?>"
+                <img class="s-card-img" src="<?php echo get_template_directory_uri() . '/img/Laptop-repairing-service.jpg' ?>"
                      alt="img" width="287" height="192">
                 <div class="s-card-body">
                     <h5 class="s-card-title">Maintenance</h5>
@@ -29,10 +29,10 @@
                 </div>
             </div>
             <div class="s-card m-auto  ml-md-5" style="width: 287px;">
-                <img class="s-card-img" src="<?php echo get_template_directory_uri() . '/img/laptop-min.jpg' ?>"
+                <img class="s-card-img" src="<?php echo get_template_directory_uri() . '/img/laptop.png' ?>"
                      alt="img" width="287" height="192">
                 <div class="s-card-body">
-                    <h5 class="s-card-title">Sell ​​Laptop</h5>
+                    <h5 class="s-card-title">Buy ​​Laptop</h5>
                     <p class="s-card-text">
                         Some quick example text to build on the card title and make up the bulk of the card's content.
                     </p>
@@ -66,9 +66,9 @@
             <h2 class="text-center">Opening Hours</h2>
 
             <div class="row">
-                <div class="col-md-6 img text-md-right align-self-center py-2">
+                <div class="col-md-6 img text-md-right align-self-center ">
                     <!--<i class="fas fa-hotel fa-fw fa-10x"></i>-->
-                    <img src="<?php echo get_template_directory_uri() . '/img/open-hours.svg' ?>" alt="Open-Hours-Img" height="160">
+                    <img class="py-4" src="<?php echo get_template_directory_uri() . '/img/open-hours.svg' ?>" alt="Open-Hours-Img" height="160">
                 </div>
                 <div class="col-md-6 text text-md-left pt-md-5 py-md-4 py-sm-2">
                     <p>

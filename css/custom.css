@@ -1,12 +1,18 @@
-/*Global Style*/
-* {
-    /*font-family: Arial, sans-serif;*/
-}
-
 /*Main variable*/
 root {
     --main-font: 'Montserrat', sans-serif;
     --second-font: 'Open Sans', sans-serif;
+}
+
+/*Global Style*/
+* {}
+
+.w-10 {
+    width: 10%;
+}
+
+.w-15 {
+    width: 15%;
 }
 
 a,
@@ -25,7 +31,7 @@ header a {
 
 body > header {
     font-size: 12px;
-    padding: .5rem 10rem !important;
+    padding: .5rem 0;
     background: #f2f2f2;
     color: #737373;
 }
@@ -96,7 +102,7 @@ header .register a:not(:last-child):after {
 }
 
 .header hr {
-    width: 15%;
+    width: 75px;
     height: 1px;
     margin: 31px auto;
     background: #fff;
@@ -117,6 +123,7 @@ header .register a:not(:last-child):after {
 .services {
     padding-top: 50px;
 }
+
 .services .s-card {
     padding-bottom: 50px;
 }
@@ -140,21 +147,94 @@ header .register a:not(:last-child):after {
     line-height: 24px;
 }
 
-/*@media (max-width: var(--breakpoint-md)) {*/
-    /*.services .container {*/
-        /*display: block!important;*/
-        /*text-align: center;*/
-        /*margin: 0 auto;*/
-    /*}*/
-    /*.services .container > div {*/
-        /*width: 100%;*/
-    /*}*/
-/*}*/
 /*End Services Section*/
+
+/*Start About Us Section*/
+.about-us {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #f4f4f4;
+    background-color: #000;
+}
+
+.about-us h2 {
+    font-family: var(--main-font);
+    font-size: 34px;
+    font-weight: 400;
+    /*color: #333333;*/
+    color: var(--danger);
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.about-us p:first-of-type {
+    margin: 22px 0;
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-weight: 400;
+    /*color: #333333;*/
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.about-us hr {
+    /*background-color: #1cbac8;*/
+    background-color: var(--danger);
+    height: 1px;
+    width: 75px;
+}
+
+.about-us p:last-of-type {
+    font-family: var(--second-font);
+    font-size: 16px;
+    font-weight: 400;
+    /*color: #8f96a1;*/
+    line-height: 24px;
+}
+
+/*End About Us Section*/
+
+/*Start Opening Hour Section*/
+.open-hours {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    /*color: #f4f4f4;*/
+    /*background-color: #000;*/
+}
+
+.open-hours h2 {
+    font-family: var(--main-font);
+    font-size: 34px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.open-hours .img {
+    /*text-align: right;*/
+}
+.open-hours p {
+    /*text-align: left;*/
+    /*margin: 55px 0 40px;*/
+    font-family: var(--second-font);
+    font-size: 16px;
+    font-weight: 400;
+    color: #737881;
+    line-height: 24px;
+}
+
+/*End Opening Hour Section*/
 
 /*Start Footer*/
 footer {
-    color: #fff
+    font-family: var(--danger);
+    font-size: 14px;
+    font-weight: 400;
+    color: #8f96a1;
+    letter-spacing: 1px;
+    line-height: 24px;
 }
 
 /*End Footer*/

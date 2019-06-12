@@ -3,13 +3,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center align-self-center">
-                        <img class="img-fluid" alt="" src="<?php echo get_template_directory_uri() . '/img/logo.svg'?>" />
+                        <img class="img my-3" alt="logo" src="<?php echo get_template_directory_uri() . '/img/logo.svg'?>" />
                     </div>
                     <div class="col-md-6 text-center align-self-center">
                         Copyright &copy; <?php echo date('Y'); ?> <?php bloginfo('name');?>
                         ALL RIGHTS RESERVED.
                         <br>
-                        Powred By <a href="">Yes Soft Company</a>
+                        Powred By <a href="http://yes-soft.de">Yes Soft Company</a>
                     </div>
                 </div>
             </div>

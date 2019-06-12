@@ -3,7 +3,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center align-self-center">
-                        <img class="img my-3" alt="logo" src="<?php echo get_template_directory_uri() . '/img/logo.svg'?>" />
+                        <img class="img my-3" alt="logo" src="<?php echo get_template_directory_uri() . '/img/logo-white.svg'?>" />
                     </div>
                     <div class="col-md-6 text-center align-self-center">
                         Copyright &copy; <?php echo date('Y'); ?> <?php bloginfo('name');?>

@@ -2,10 +2,12 @@
 root {
     --main-font: 'Montserrat', sans-serif;
     --second-font: 'Open Sans', sans-serif;
+    /*--dark-danger: #be2e3c;*/
 }
 
 /*Global Style*/
-* {}
+* {
+}
 
 .w-10 {
     width: 10%;
@@ -212,9 +214,11 @@ header .register a:not(:last-child):after {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
 .open-hours .img {
     /*text-align: right;*/
 }
+
 .open-hours p {
     /*text-align: left;*/
     /*margin: 55px 0 40px;*/
@@ -227,6 +231,118 @@ header .register a:not(:last-child):after {
 
 /*End Opening Hour Section*/
 
+/*Start What-Customer-Say Section*/
+.what-say {
+    background: #000 !important;
+    padding-top: 75px !important;
+}
+
+.what-say h2 {
+    font-family: var(--main-font);
+    font-size: 34px;
+    font-weight: 400;
+    /*color: #333333;*/
+    color: var(--danger);
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 55px;
+}
+
+.what-say .testimonial {
+    margin: 0 20px 40px;
+}
+
+.what-say .testimonial .testimonial-content {
+    padding: 35px 25px 35px 50px;
+    margin-bottom: 35px;
+    background: #fff;
+    position: relative;
+}
+
+.what-say .testimonial .testimonial-content:before {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    border-top: 15px solid #718076;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+.what-say .testimonial .testimonial-content:after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    border-top: 15px solid #718076;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+.what-say .testimonial-content .testimonial-icon {
+    width: 50px;
+    height: 45px;
+    background:var(--danger);
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    line-height: 42px;
+    position: absolute;
+    top: 37px;
+    left: -19px;
+}
+
+.what-say .testimonial-content .testimonial-icon:before {
+    content: "";
+    border-bottom: 16px solid #be2e3c;
+    border-left: 18px solid transparent;
+    position: absolute;
+    top: -16px;
+    left: 1px;
+}
+
+.what-say .testimonial .description {
+    font-size: 15px;
+    font-style: italic;
+    color: #8a8a8a;
+    line-height: 23px;
+    margin: 0;
+}
+
+.what-say .testimonial .title {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #b6c7be;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 0 0 5px 0;
+}
+
+.what-say .testimonial .post {
+    display: block;
+    font-size: 14px;
+    color: var(--danger);
+}
+
+.what-say .owl-theme .owl-controls {
+    margin-top: 20px;
+}
+
+.what-say .owl-theme .owl-controls .owl-page span {
+    background: #ccc;
+    opacity: 1;
+    transition: all 0.4s ease 0s;
+}
+
+.what-say .owl-theme .owl-controls .owl-page.active span,
+.what-say .owl-theme .owl-controls.clickable .owl-page:hover span {
+    background: var(--danger);
+}
+
+/*End What-Customer-Say Section*/
+
 /*Start Footer*/
 footer {
     font-family: var(--danger);
@@ -236,7 +352,9 @@ footer {
     letter-spacing: 1px;
     line-height: 24px;
 }
+
 footer img {
     height: 125px;
 }
+
 /*End Footer*/

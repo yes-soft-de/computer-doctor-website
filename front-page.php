@@ -19,7 +19,8 @@
     <div class="services text-center">
         <div class="container d-sm-block d-md-flex justify-content-md-center">
             <div class="s-card m-auto " style="width: 287px;">
-                <img class="s-card-img" src="<?php echo get_template_directory_uri() . '/img/Laptop-repairing-service.jpg' ?>"
+                <img class="s-card-img"
+                     src="<?php echo get_template_directory_uri() . '/img/Laptop-repairing-service.jpg' ?>"
                      alt="img" width="287" height="192">
                 <div class="s-card-body">
                     <h5 class="s-card-title">Maintenance</h5>
@@ -68,7 +69,8 @@
             <div class="row">
                 <div class="col-md-6 img text-md-right align-self-center ">
                     <!--<i class="fas fa-hotel fa-fw fa-10x"></i>-->
-                    <img class="py-4" src="<?php echo get_template_directory_uri() . '/img/open-hours.svg' ?>" alt="Open-Hours-Img" height="160">
+                    <img class="py-4" src="<?php echo get_template_directory_uri() . '/img/open-hours.svg' ?>"
+                         alt="Open-Hours-Img" height="160">
                 </div>
                 <div class="col-md-6 text text-md-left pt-md-5 py-md-4 py-sm-2">
                     <p>
@@ -84,5 +86,75 @@
         </div>
     </div>
     <!--End Opening-Hours Section-->
+
+    <!--Start What-Customer-Say Section-->
+    <div class="what-say">
+        <h2 class="text-center">Testimonial</h2>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="testimonial-slider" class="owl-carousel">
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left"></i>
+                                </div>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisit nisi vehicula.
+                                </p>
+                            </div>
+                            <h3 class="title">John</h3>
+                            <span class="post">Web Developer</span>
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left"></i>
+                                </div>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit
+                                    amet eros imperdiet, sit amet hendrerit nisi vehicula.
+                                </p>
+                            </div>
+                            <h3 class="title">Kelle</h3>
+                            <span class="post">Web Designer</span>
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left"></i>
+                                </div>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit
+                                    amet eros imperdiet, sit amet hendrerit nisi vehicula.
+                                </p>
+                            </div>
+                            <h3 class="title">Steven</h3>
+                            <span class="post">Web Developer</span>
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left"></i>
+                                </div>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit
+                                    amet eros imperdiet, sit amet hendrerit nisi vehicula.
+                                </p>
+                            </div>
+                            <h3 class="title">Peter</h3>
+                            <span class="post">Web Developer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End What-Customer-Say Section-->
+
 
 <?php get_footer() ?>

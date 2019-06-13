@@ -57,7 +57,7 @@
     </header>
     <!--Start NavBar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-white px-5">
-        <a class="navbar-brand" href="#">NoteBook <span class="text-danger">Doctor</span></a>
+        <a class="navbar-brand" href="<?php echo get_site_url() ?>">NoteBook <span class="text-danger">Doctor</span></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83301fc2-c381-4b0a-88e0-e5a0a1f6c5c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/owl.theme.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/owl.carousel.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.min.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,11 +28,11 @@
     <session id="1275964752">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="3" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -64,14 +56,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1012" />
+          <entry key="css" value="1025" />
           <entry key="php" value="980" />
           <entry key="svg" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1012" />
+          <entry key="CSS" value="1025" />
           <entry key="PHP" value="980" />
           <entry key="SVG" value="40" />
         </counts>
@@ -83,42 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-              <folding>
-                <element signature="e#134#137#0" />
-                <element signature="e#145#164#0" />
-                <element signature="e#172#191#0" />
-                <element signature="e#204#254#0" />
-                <element signature="e#290#473#0" />
-                <element signature="e#489#580#0" />
-                <element signature="e#597#618#0" />
-                <element signature="e#662#706#0" />
-                <element signature="e#771#797#0" />
-                <element signature="e#810#836#0" />
-                <element signature="e#895#1019#0" />
-                <element signature="e#1035#1201#0" />
-                <element signature="e#1241#1310#0" />
-                <element signature="e#1322#1437#0" />
-                <element signature="e#1450#1564#0" />
-                <element signature="e#1577#1659#0" />
-                <element signature="e#1676#1824#0" />
-                <element signature="e#1887#1913#0" />
-                <element signature="e#1933#1962#0" />
-                <element signature="e#1988#2188#0" />
-                <element signature="e#2213#2339#0" />
-                <element signature="e#2404#2504#0" />
-                <element signature="e#2519#2729#0" />
-                <element signature="e#2757#2930#0" />
-                <element signature="e#2945#3054#0" />
-                <element signature="e#3081#3211#0" />
-                <element signature="e#3282#3390#0" />
-                <element signature="e#3407#3587#0" />
-                <element signature="e#3606#3636#0" />
-                <element signature="e#3652#3833#0" />
-                <element signature="e#6246#6392#0" />
-                <element signature="e#6405#6427#0" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="297" column="31" selection-start-line="297" selection-start-column="31" selection-end-line="297" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -247,18 +205,19 @@
       <workItem from="1560301626353" duration="544000" />
       <workItem from="1560335257745" duration="14291000" />
       <workItem from="1560368450432" duration="619000" />
-      <workItem from="1560423066071" duration="5366000" />
+      <workItem from="1560423066071" duration="7149000" />
+      <workItem from="1560449856195" duration="271000" />
+      <workItem from="1560453469422" duration="606000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36082000" />
+    <option name="totallyTimeSpent" value="38742000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21946308" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2261745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -349,107 +308,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="e#2221#2294#0#PHP" />
-            <element signature="n#spark_add_custom_nav#0;n#!!top" />
-            <element signature="e#2333#2449#0#PHP" />
-            <element signature="e#2352#2448#1#PHP" />
-            <element signature="e#2500#2580#0#PHP" />
-            <element signature="n#spark_position_custom_menu#0;n#!!top" />
-            <element signature="e#2625#2898#0#PHP" />
-            <element signature="e#2637#2897#1#PHP" />
-            <element signature="n#_check_active_widget#0;n#!!top" />
-            <element signature="e#3248#4195#0#PHP" />
-            <element signature="e#3281#4189#0#PHP" />
-            <element signature="e#3322#4179#0#PHP" />
-            <element signature="e#3533#4165#0#PHP" />
-            <element signature="e#3750#3909#0#PHP" />
-            <element signature="n#_get_all_widgetcont#0;n#!!top" />
-            <element signature="e#4313#4394#0#PHP" />
-            <element signature="e#4399#4984#0#PHP" />
-            <element signature="e#4476#4949#0#PHP" />
-            <element signature="e#4551#4943#0#PHP" />
-            <element signature="e#4591#4933#0#PHP" />
-            <element signature="e#4644#4919#0#PHP" />
-            <element signature="e#4752#4919#0#PHP" />
-            <element signature="e#4950#4984#0#PHP" />
-            <element signature="e#4989#5106#0#PHP" />
-            <element signature="e#5071#5106#0#PHP" />
-            <element signature="e#5110#5278#0#PHP" />
-            <element signature="e#5149#5276#0#PHP" />
-            <element signature="e#5280#5892#0#PHP" />
-            <element signature="e#5320#5890#0#PHP" />
-            <element signature="e#5385#5465#0#PHP" />
-            <element signature="e#5474#5680#0#PHP" />
-            <element signature="e#5571#5680#0#PHP" />
-            <element signature="e#5689#5788#0#PHP" />
-            <element signature="e#5893#6558#0#PHP" />
-            <element signature="e#5932#6556#0#PHP" />
-            <element signature="e#6042#6524#0#PHP" />
-            <element signature="e#6085#6483#0#PHP" />
-            <element signature="e#6148#6469#0#PHP" />
-            <element signature="e#6228#6391#0#PHP" />
-            <element signature="e#6285#6369#0#PHP" />
-            <element signature="n#_prepared_widget#0;n#!!top" />
-            <element signature="e#6643#6694#0#PHP" />
-            <element signature="e#6699#6755#0#PHP" />
-            <element signature="e#6760#6819#0#PHP" />
-            <element signature="e#6824#6890#0#PHP" />
-            <element signature="e#6895#6935#0#PHP" />
-            <element signature="e#6940#7010#0#PHP" />
-            <element signature="e#7015#7072#0#PHP" />
-            <element signature="e#7077#7130#0#PHP" />
-            <element signature="e#7135#7199#0#PHP" />
-            <element signature="e#7204#7271#0#PHP" />
-            <element signature="e#7276#7340#0#PHP" />
-            <element signature="e#7345#7421#0#PHP" />
-            <element signature="e#7426#7484#0#PHP" />
-            <element signature="e#7489#7566#0#PHP" />
-            <element signature="e#7571#7665#0#PHP" />
-            <element signature="e#7670#7781#0#PHP" />
-            <element signature="e#7786#7882#0#PHP" />
-            <element signature="e#7887#7963#0#PHP" />
-            <element signature="e#7968#8027#0#PHP" />
-            <element signature="e#8032#8081#0#PHP" />
-            <element signature="e#8086#8130#0#PHP" />
-            <element signature="e#8135#11603#0#PHP" />
-            <element signature="e#8854#9216#0#PHP" />
-            <element signature="e#8902#9206#0#PHP" />
-            <element signature="e#8987#9192#0#PHP" />
-            <element signature="e#9113#9192#0#PHP" />
-            <element signature="e#9225#9284#0#PHP" />
-            <element signature="e#9293#9372#0#PHP" />
-            <element signature="e#9381#9480#0#PHP" />
-            <element signature="e#9489#9556#0#PHP" />
-            <element signature="e#9565#9660#0#PHP" />
-            <element signature="e#9670#9765#0#PHP" />
-            <element signature="e#9774#9833#0#PHP" />
-            <element signature="e#9889#10145#0#PHP" />
-            <element signature="e#9960#10087#0#PHP" />
-            <element signature="e#10088#10145#0#PHP" />
-            <element signature="e#10644#11416#0#PHP" />
-            <element signature="e#10702#11416#0#PHP" />
-            <element signature="e#10721#11306#0#PHP" />
-            <element signature="e#10966#11306#0#PHP" />
-            <element signature="e#11034#11292#0#PHP" />
-            <element signature="e#11151#11292#0#PHP" />
-            <element signature="e#11319#11406#0#PHP" />
-            <element signature="e#11473#11592#0#PHP" />
-            <element signature="e#11827#12094#0#PHP" />
-            <element signature="e#11857#11914#0#PHP" />
-            <element signature="e#11923#11982#0#PHP" />
-            <element signature="e#11991#12044#0#PHP" />
-            <element signature="e#12053#12088#0#PHP" />
-            <element signature="e#12100#12686#0#PHP" />
-            <element signature="e#12125#12680#0#PHP" />
-            <element signature="e#12476#12680#0#PHP" />
-            <element signature="n#__popular_posts#0;n#!!top" />
-            <element signature="e#13157#13234#0#PHP" />
-            <element signature="e#13239#13359#0#PHP" />
-            <element signature="e#13530#13953#0#PHP" />
-            <element signature="e#13552#13882#0#PHP" />
-            <element signature="e#13889#13953#0#PHP" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -457,33 +315,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#22#27#0#PHP" />
-            <element signature="e#113#118#0#PHP" />
-            <element signature="e#307#312#0#PHP" />
-            <element signature="e#372#377#0#PHP" />
-            <element signature="e#413#418#0#PHP" />
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="e#496#775#0#HTML" />
-            <element signature="e#499#504#0#PHP" />
-            <element signature="n#body#0;n#html#0;n#!!top" />
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#span#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#span#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#0;n#span#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#1;n#span#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#2;n#span#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#1;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#2373#2378#0#PHP" />
-            <element signature="n#button#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#2824#2829#0#PHP" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -497,54 +328,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="91" column="48" selection-start-line="91" selection-start-column="48" selection-end-line="91" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#5#0#PHP" />
-            <element signature="e#59#428#0#HTML" />
-            <element signature="e#100#417#0#HTML" />
-            <element signature="e#136#402#0#HTML" />
-            <element signature="e#170#383#0#HTML" />
-            <element signature="e#498#1790#0#HTML" />
-            <element signature="e#541#1779#0#HTML" />
-            <element signature="e#624#1192#0#HTML" />
-            <element signature="e#691#879#0#HTML" />
-            <element signature="e#720#725#0#PHP" />
-            <element signature="e#691#858#0#HTML" />
-            <element signature="e#875#1173#0#HTML" />
-            <element signature="e#983#1150#0#HTML" />
-            <element signature="e#1205#1764#0#HTML" />
-            <element signature="e#1309#1314#0#PHP" />
-            <element signature="e#1280#1429#0#HTML" />
-            <element signature="e#1446#1745#0#HTML" />
-            <element signature="e#1555#1722#0#HTML" />
-            <element signature="e#1971#2031#0#HTML" />
-            <element signature="e#2061#2517#0#HTML" />
-            <element signature="e#2757#3469#0#HTML" />
-            <element signature="e#2791#3088#0#HTML" />
-            <element signature="e#2963#2968#0#PHP" />
-            <element signature="e#6330#6480#0#HTML" />
-            <element signature="e#3105#3449#0#HTML" />
-            <element signature="e#3190#3426#0#HTML" />
-            <element signature="e#3897#4329#0#HTML" />
-            <element signature="e#3963#4101#0#HTML" />
-            <element signature="e#4134#4294#0#HTML" />
-            <element signature="e#4564#5108#0#HTML" />
-            <element signature="e#4630#4768#0#HTML" />
-            <element signature="e#4801#5073#0#HTML" />
-            <element signature="e#5343#5887#0#HTML" />
-            <element signature="e#5409#5547#0#HTML" />
-            <element signature="e#5580#5852#0#HTML" />
-            <element signature="e#6124#6668#0#HTML" />
-            <element signature="e#6190#6328#0#HTML" />
-            <element signature="e#6361#6633#0#HTML" />
-            <element signature="e#3534#3539#0#PHP" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state relative-caret-position="300">
+          <caret line="297" column="31" selection-start-line="297" selection-start-column="31" selection-end-line="297" selection-end-column="31" />
           <folding>
             <element signature="e#134#137#0" />
             <element signature="e#145#164#0" />

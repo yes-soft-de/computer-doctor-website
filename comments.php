@@ -10,6 +10,11 @@ if ( comments_open( ) ) {
     );
     wp_list_comments( $arg );
 
+    // Check If There Is Comment Or Not
+    if (count(get_comments()) == 0) {
+        echo '<div class="col alert alert-secondary bg-white text-center ">There Is Nothing To Show Yet, Please Tell Us Your Opinion</div>';
+    }
+
     echo "<hr class='separate-line'>";
     // Comments Form
     comment_form();

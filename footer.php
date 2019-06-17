@@ -1,5 +1,5 @@
         <!--Footer-->
-        <footer class="text-center py-3" style="background-color: #333">
+        <footer class="text-center py-3">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center align-self-center">

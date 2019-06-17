@@ -100,6 +100,9 @@
                                 <div class="testimonial-icon">
                                     <i class="fa fa-quote-left"></i>
                                 </div>
+                                <div class="testimonial-icon-stars">
+                                    5<i class="fa fa-star"></i>
+                                </div>
                                 <p class="description">
                                     Lorem ipsum dolor sit amet, consectetur adipisit nisi vehicula.
                                 </p>
@@ -112,6 +115,9 @@
                             <div class="testimonial-content">
                                 <div class="testimonial-icon">
                                     <i class="fa fa-quote-left"></i>
+                                </div>
+                                <div class="testimonial-icon-stars">
+                                    5<i class="fa fa-star"></i>
                                 </div>
                                 <p class="description">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit
@@ -127,6 +133,9 @@
                                 <div class="testimonial-icon">
                                     <i class="fa fa-quote-left"></i>
                                 </div>
+                                <div class="testimonial-icon-stars">
+                                    5<i class="fa fa-star"></i>
+                                </div>
                                 <p class="description">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit
                                     amet eros imperdiet, sit amet hendrerit nisi vehicula.
@@ -140,6 +149,9 @@
                             <div class="testimonial-content">
                                 <div class="testimonial-icon">
                                     <i class="fa fa-quote-left"></i>
+                                </div>
+                                <div class="testimonial-icon-stars">
+                                    5<i class="fa fa-star"></i>
                                 </div>
                                 <p class="description">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit

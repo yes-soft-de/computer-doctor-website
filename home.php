@@ -25,7 +25,6 @@ if ( have_posts() ):?>
                     <div class="post-content text-center my-3 pb-4">
                         <div class="post-content-meta">
                             <?php the_time('F j, Y'); ?> <!--The Date For Creating Post-->
-                            <?php the_author_posts_link() ?> <!--The Author How Create Post-->
                         </div>
                         <?php the_excerpt() ?> <!--Excerpt For The Post-->                        
                     </div>                    

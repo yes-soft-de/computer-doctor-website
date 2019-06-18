@@ -129,7 +129,7 @@ header .register a:not(:last-child):after {
     border-radius: 4px
 }
 .our-posts .post .post-title {
-    color: #45a9b7;
+    color: #dc3545;
     letter-spacing: 1px;
     padding: 10px;
 }
@@ -152,22 +152,8 @@ header .register a:not(:last-child):after {
 .our-posts .post .post-content-meta {
     letter-spacing: 2px
 }
-.our-posts .post .post-content-meta a {
-    text-decoration: none;
-    color: #394240;
-}
-.our-posts .post .post-content-meta .date:hover,
-.our-posts .post .post-content-footer-comment:hover,
-.our-posts .post .post-content-meta a:hover {
+.our-posts .post .post-content-footer-comment:hover {
     color: #ee6825!important;
-}
-.our-posts .post .post-content-meta a:last-child {
-    color: #45a9b7
-}
-.our-posts .post .post-content-meta a:last-child::before,
-.our-posts .post .post-content-meta a:last-child::after {
-    content: ' | ';
-    color: #394240;
 }
 .our-posts .post .post-content p {
     margin-top: 15px;
@@ -187,7 +173,7 @@ header .register a:not(:last-child):after {
     background: #eee;
 }
 .pagination_number a {
-    color: #45a9b7;
+    color: #dc3545;
 }
 .pagination_number span {
     color: #394240
@@ -198,6 +184,176 @@ header .register a:not(:last-child):after {
 }
 /*End Pagination Section*/
 /* ---- End Blog Page ---- */
+
+/* ---- Start Single Post Page ---- */
+.single_post_page {
+    background-color: #f8f9fa;
+    padding-top: 75px;
+    padding-bottom: 75px
+}
+.single-post {
+    position:relative;
+    background: #fff
+}
+.single-post .post-edit-link {
+    position: absolute;
+    top: 0;
+    right: 0; /*Need Change In Rtl*/
+    padding: 8px;
+    background-color: #eee;
+    border-radius: 0 0 0 5px; /*Need Change In Rtl*/
+}
+.single-post h2 a {
+    text-decoration: none;
+    color: #dc3545;
+    letter-spacing: 1px
+}
+.single-post h2:hover a {
+    color: #ee6825
+}
+.single-post .single-post-detail {
+    color: #394240;
+    font-size: 14px
+}
+.single-post .single-post-img {
+    height: 400px;
+    text-align: center
+}
+.single-post .single-post-img img {
+    max-height: 400px;
+}
+.single-post hr {
+    width: 25%
+}
+.single-post .post-content,
+.single-post .post-categories {
+    color: #394240
+}
+.single-post .post-categories,
+.our-posts .custom-post .post-categories {
+    /* background: #eee; */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ee6825;
+}
+/* ---- End Single Post Page ---- */
+
+/* ---- Start Pagination Section ---- */
+.post-pagination {
+	padding:15px 0;
+}
+.post-pagination a,
+.post-pagination span {
+	margin: 2px;
+    padding: 7px;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+}
+.post-pagination a {
+	text-decoration: none;
+}
+.post-pagination a:hover {
+	color: #fff;
+	background-color: #474d52;
+}
+.post-pagination span {
+	cursor: not-allowed;
+	opacity: .5;
+}
+.pagination-number {
+	margin: 0 auto;
+}
+.pagination-number .page-numbers {
+	display: inline-block;
+	padding: 3px 7px;
+	border-radius: 5px;
+	margin: 1px;
+	background: #8e8e8e;
+	color: #fff;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.pagination-number .page-numbers:hover,
+.pagination-number .page-numbers.current {
+	background: #154c88;
+}
+/* ---- End Pagination Section ---- */
+
+/* ---- Start Category Section ---- */
+.category-box {
+    background: #f8f9fa;
+    margin-top: 30px;
+    padding: 20px 0;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+.category-box .cat-header {
+    font-weight: bold;
+    color: #777;
+}
+.category-box .cat-desc {
+    padding-top: 10px;
+    color: #777;
+    font-weight: 500;
+    font-size: 20px;
+}
+.category-box .cat-stat {
+    color: #777;
+    font-size: 14px;
+    padding-top: 17px;
+    font-weight: 400
+}
+.our-posts .custom-post h2.cat-heading:hover a {
+    color: #dc3545
+}
+.our-posts .custom-post h2.cat-heading ~ span {
+    font-size: 14px
+}
+.our-posts .custom-post .post-content p {
+    padding-left: 0;
+    padding-right: 0
+}
+/* ---- End Category Section ---- */
+
+/* ---- Start SideBar For Category ---- */
+.sidebar {
+	margin-top: 20px;
+}
+.sidebar .widget {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin-bottom: 15px
+
+}
+.sidebar .widget-title {
+    background-color: #dc3545;
+    padding: 10px;
+    color: #fff;
+    margin: 0
+}
+.sidebar .widget-content {
+	padding: 10px
+}
+.sidebar .widget-content span {
+	color: #888;
+    padding: 10px;
+}
+.sidebar .widget-content span a {
+    font-size: 14px
+}
+.sidebar .widget-content a {
+    padding: 10px;
+}
+/* ---- End SideBar For Category ---- */
 
 /*Start Services Section*/
 .services {
@@ -238,7 +394,7 @@ header .register a:not(:last-child):after {
 .services-page h2 {
     background-color: #fff;
     padding: 15px 0;
-    border: 1px solid #45a9b7;
+    border: 1px solid #dc3545;
     border-radius: 5px;
     margin: 20px 0;
     color: rgb(81, 127, 134);
@@ -253,7 +409,7 @@ header .register a:not(:last-child):after {
     text-align: justify;
 }
 .services-page .service h4 {
-    color: #45a9b7;
+    color: #dc3545;
     text-align: center;
 }
 /*Start Single Services Page*/
@@ -320,10 +476,6 @@ header .register a:not(:last-child):after {
     line-height: 32px;
     letter-spacing: 1px;
     text-transform: uppercase;
-}
-
-.open-hours .img {
-    /*text-align: right;*/
 }
 
 .open-hours p {
@@ -643,7 +795,7 @@ h4.comment-number {
 }
 
 .comments-list .bypostauthor .comment-body .comment-author cite.fn {
-    color: #45a9b7;
+    color: #dc3545;
     margin-left: 10px;
     text-transform: capitalize;
     font-size: 17px;
@@ -749,6 +901,25 @@ h4.comment-number {
 }
 
 /*End Social Media Section*/
+
+/*Start 404 Error Page*/
+.page-not-found img {
+	width: 50%;
+	margin: 30px ;
+}
+.page-not-found h1 {
+    font-size: 60px;
+    color: #777;
+    font-weight: 700;
+    letter-spacing: -4px;
+}
+.page-not-found p {
+    font-size: 30px;
+    font-weight: 600;
+    color: #aaa;
+    letter-spacing: -1px;
+}
+/*End 404 Error Page*/
 
 /*Start Footer*/
 footer {

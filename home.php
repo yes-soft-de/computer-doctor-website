@@ -44,7 +44,7 @@ if ( have_posts() ):?>
 <!--End Post Content Page-->
 <?php 
 else:
-    echo '<div class="alert alert-info text-center">Sorry, There Is No Posts To Dispaly</div>';
+    echo '<div class="alert alert-info text-center my-5">Sorry, There Is No Posts To Dispaly</div>';
 endif; 
 
 get_footer();

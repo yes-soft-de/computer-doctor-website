@@ -56,7 +56,7 @@
         <div class="clearfix"></div>
     </header>
     <!--Start NavBar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white px-5">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white px-5 sticky-top border border-top-0">
         <a class="navbar-brand" href="<?php echo get_site_url() ?>">NoteBook <span class="text-danger">Doctor</span></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

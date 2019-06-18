@@ -1,14 +1,53 @@
-<?php get_header() ?>
+<?php
+get_header();
+$lang = [
 
+	'home' => [
+		'paragraph'=> 'laptop and mac book',
+		'big-title'=> 'TECHNICAL ASSISTANCE',
+		'button'   => 'learn more',
+	],
+	'service' => [
+		'maintenance' => [
+			'title'       => 'Maintenance',
+			'description' => 'Some quick example text to build on the card title and make up the bulk of the card\'s content.'
+		],
+		'buy' => [
+			'title'       => 'Buy Laptops',
+			'description' => 'Some quick example text to build on the card title and make up the bulk of the card\'s content.'
+		]
+	],
+	'about' => [
+		'title'       => 'About Us',
+		'attention-p' => 'We Are Creative Company',
+		'paragraph'   => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque distinctio ducimus maiores modi saepe. Amet, cumque dolorem, est harum in ipsam iusto officia, pariatur quidem sed sequi unde vero voluptatem. Lorem ipsum dolor sit amet, consectetur adipisiciodi saepe. Amet, cumque dolorem, est harum in ipsam iusto officia, pariatur quidem sed sequi unde vero voluptatem.'
+	],
+	'opening' => [
+		'title'       => 'Opening Hours',
+		'paragraph-1' => 'From Sept to Fri : from 09hrs to 18hrs',
+		'paragraph-2' => 'Sturday: 09hrs to 15hrs',
+		'paragraph-3' => 'Sunday: closed'
+	],
+	'testimonial' => [
+		'title' => 'Testimonial',
+	],
+	'footer' => [
+		'copyright' => 'Copyright',
+		'powred by' => 'Powred By',
+		'all rights reserved' => 'ALL RIGHTS RESERVED.',
+	]
+];
+
+?>
     <!--Start Header Section-->
     <div class="header text-center">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p>laptop and mac book</p>
-                    <h1>TECHNICAL ASSISTANCE</h1>
+                    <p><?php echo $lang['home']['paragraph']?></p>
+                    <h1><?php echo $lang['home']['big-title']?></h1>
                     <hr>
-                    <button>learn more</button>
+                    <button><?php echo $lang['home']['button']?></button>
                 </div>
             </div>
         </div>
@@ -16,16 +55,16 @@
     <!--End Header Section-->
 
     <!--Start Services Section-->
-    <div class="services text-center">
+    <div class="services text-center" id="services">
         <div class="container d-sm-block d-md-flex justify-content-md-center">
             <div class="s-card m-auto " style="width: 287px;">
                 <img class="s-card-img"
                      src="<?php echo get_template_directory_uri() . '/img/Laptop-repairing-service.jpg' ?>"
                      alt="img" width="287" height="192">
                 <div class="s-card-body">
-                    <h5 class="s-card-title">Maintenance</h5>
+                    <h5 class="s-card-title"><?php echo $lang['service']['maintenance']['title'] ?></h5>
                     <p class="s-card-text">
-                        Some quick example text to build on the card title and make up the bulk of the card's content.
+	                    <?php echo $lang['service']['maintenance']['description'] ?>
                     </p>
                 </div>
             </div>
@@ -33,9 +72,9 @@
                 <img class="s-card-img" src="<?php echo get_template_directory_uri() . '/img/laptop.png' ?>"
                      alt="img" width="287" height="192">
                 <div class="s-card-body">
-                    <h5 class="s-card-title">Buy ​​Laptop</h5>
+                    <h5 class="s-card-title"><?php echo $lang['service']['buy']['title'] ?></h5>
                     <p class="s-card-text">
-                        Some quick example text to build on the card title and make up the bulk of the card's content.
+	                    <?php echo $lang['service']['buy']['description'] ?>
                     </p>
                 </div>
             </div>
@@ -44,41 +83,33 @@
     <!--End Services Section-->
 
     <!--Start About-Us Section-->
-    <div class="about-us text-center">
+    <div class="about-us text-center" id="about-us">
         <div class="container">
-            <h2>About Us</h2>
-            <p>
-                We Are Creative Company
-            </p>
+            <h2><?php echo $lang['about']['title']?></h2>
+            <p><?php echo $lang['about']['attention-p']?></p>
             <hr>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque distinctio ducimus maiores modi saepe.
-                Amet, cumque dolorem, est harum in ipsam iusto officia, pariatur quidem sed sequi unde vero voluptatem.
-                Lorem ipsum dolor sit amet, consectetur adipisiciodi saepe. Amet, cumque dolorem, est harum in ipsam
-                iusto officia, pariatur quidem sed sequi unde vero voluptatem.
-            </p>
+            <p><?php echo $lang['about']['paragraph']?></p>
         </div>
     </div>
     <!--End About-Us Section-->
 
     <!--Start Opening-Hours Section-->
-    <div class="open-hours text-center">
+    <div class="open-hours text-center" id="open-hours">
         <div class="container">
-            <h2 class="text-center">Opening Hours</h2>
+            <h2 class="text-center"><?php echo $lang['opening']['title']?></h2>
 
             <div class="row">
                 <div class="col-md-6 img text-md-right align-self-center ">
-                    <!--<i class="fas fa-hotel fa-fw fa-10x"></i>-->
                     <img class="py-4" src="<?php echo get_template_directory_uri() . '/img/open-hours.svg' ?>"
                          alt="Open-Hours-Img" height="160">
                 </div>
                 <div class="col-md-6 text text-md-left pt-md-5 py-md-4 py-sm-2">
                     <p>
-                        From Sept to Fri : from 09hrs to 18hrs
+	                    <?php echo $lang['opening']['paragraph-1']?>
                         <br>
-                        Sturday: 09hrs to 15hrs
+                        <?php echo $lang['opening']['paragraph-2']?>
                         <br>
-                        Sunday: closed
+                        <?php echo $lang['opening']['paragraph-3']?>
                     </p>
                 </div>
 
@@ -88,8 +119,8 @@
     <!--End Opening-Hours Section-->
 
     <!--Start What-Customer-Say Section-->
-    <div class="what-say">
-        <h2 class="text-center">Testimonial</h2>
+    <div class="what-say" id="what-say">
+        <h2 class="text-center"><?php echo $lang['testimonial']['title']?></h2>
         <div class="container">
 
             <div class="row">

@@ -70,6 +70,30 @@ function spark_position_custom_menu()
 }
 
 
+/*
+** Function To Add Pagination To Posts Page
+** Add By @Talal
+*/
+function pagination_number()
+{
+    global $wp_query; // Make WP_Query Global
+    $all_page_number = $wp_query->max_num_pages; // Get All Posts
+    $current_page_number = max(1, get_query_var('paged')); // Get Current Page
+    
+    // Check If There Is One Page Or More
+    if ( $all_page_number > 1 ) {
+        return paginate_links( array( 
+            'base'               => get_pagenum_link() . '%_%',
+            'format'             => '?paged=%#%',
+            'current'            => $current_page_number,
+            'total'              => $all_page_number,
+            'prev_text'          => __('« Prev'),
+            'next_text'          => __('Next »')
+        ) );
+    } 
+}
+
+
 /* 
 ** Function To Add Form To Our Contact Us Page
 ** Add By @talal

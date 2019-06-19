@@ -129,7 +129,7 @@ $lang = $en;
             <div class="col-md-12">
                 <?php 
                     // Get Page By Name
-                    $page = get_page_by_path( 'testimonial' );
+                    $page = get_page_by_path( 'Testimonail-Page' );
                     if ($page->comment_count !== 0) { ?>
                     <div id="testimonial-slider" class="owl-carousel">
 						<?php

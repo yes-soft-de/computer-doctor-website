@@ -109,7 +109,7 @@ function contact_us_form_capture()
 {
 	// Check For Contact Us
 	if ( array_key_exists( 'contact_us', $_POST ) ) {
-		$to = 'tald7344@gmail.com';
+		$to = 'w.alhamoud@gmail.com';
 		$subject = 'Message For Contact';
 		$headers = array('Content-Type: text/html; charset=UTF-8');
 		$body = '';
@@ -129,7 +129,7 @@ function contact_us_form_capture()
 
 	// Check For Ask us Service
 	if ( array_key_exists( 'ask_us', $_POST ) ) {
-		$to = 'tald7344@gmail.com';
+		$to = 'w.alhamoud@gmail.com';
 		$subject = 'Message For Service';
 		$headers = array('Content-Type: text/html; charset=UTF-8');
 		$body = '';

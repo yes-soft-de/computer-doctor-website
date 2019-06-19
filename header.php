@@ -41,15 +41,11 @@
                 </span>
         </div>
         <div class="register float-md-right text-center my-1">
-            <a href="" data-toggle="modal" data-target="#signUpModal">
-                <i class="fa fa-user-plus fa-fw"></i>
-                <!-- Button trigger sign up modal -->
-                <span>Register</span>
+            <a href="#">
+                <span>Br</span>
             </a>
-            <a href="" data-toggle="modal" data-target="#loginModal">
-                <i class="fa fa-lock-open fa-fw"></i>
-                <!-- Button trigger login modal -->
-                <span>Login</span>
+            <a href="#">
+                <span>En</span>
             </a>
         </div>
     </div>

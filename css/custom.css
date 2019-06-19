@@ -599,6 +599,19 @@ header .register a:not(:last-child):after {
     padding-bottom: 55px;
 }
 
+.what-say hr {
+    width: 60px;
+    height: 1.65px;
+    background-color: #dc3545;
+}
+.what-say .read_more a {
+    color: #fff
+}
+.what-say .read_more:hover a {
+    text-decoration: none;
+    color: #dc3545
+}
+
 .what-say .testimonial {
     margin: 0 20px 40px;
 }

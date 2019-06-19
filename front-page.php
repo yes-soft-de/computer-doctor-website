@@ -125,11 +125,13 @@ $lang = $en;
 <div class="what-say" id="what-say">
     <h2 class="text-center wow headShake"><?php echo $lang['testimonial']['title'] ?></h2>
     <div class="container wow flipInX" data-wow-delay=".7s">
+        <hr>
+        <p class="read_more text-center"><a href="<?php echo get_permalink( get_page_by_path('testimonial')->ID ) ?>">Read More >></a></p>
         <div class="row" >
             <div class="col-md-12">
                 <?php 
                     // Get Page By Name
-                    $page = get_page_by_path( 'testimonial' );
+                    $page = get_page_by_path( 'Testimonail-Page' );
                     if ($page->comment_count !== 0) { ?>
                     <div id="testimonial-slider" class="owl-carousel">
 						<?php

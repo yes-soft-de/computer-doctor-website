@@ -92,60 +92,84 @@ function pagination_number() {
 	}
 }
 
-
-/* 
-** Function To Add Form To Our Contact Us Page
-** Add By @talal
+/*
+** Function To Change the Header For The Email 
 */
-function contact_us_form() {
-	$content = '
-<form class="form-group" action="" method="post">
-	<div class="form-group">
-		<input class="form-control" type="text" name="username" placeholder="Type Your Name Please">
-	</div>
-	<div class="form-group">
-		<input class="form-control" type="email" name="email" placeholder="Type Your Email Please">
-	</div>
-	<div class="form-group">
-		<textarea class="form-control" name="message" placeholder="Type Your Message Please"></textarea>
-	</div>
-	<div class="form-group">
-		<input class="btn btn-primary btn-block" type="submit" name="send_message" value="Send">
-	</div>
-</form>';
+// function set_html_content_type()
+// {
+// 	return 'text/html';
+// }
 
-	return $content;
-}
-
-// add_shortcode( 'contact_us_form', 'contact_us_form' );
-
-
-/* 
-** Function To Add Form To Our Ask For SErvice Page
-** Add By @talal
+/*
+** Function To Send Email From User
+** Add By @Talal
+** wp_mail
 */
-function ask_for_service_form() {
-	$content = '
-<form class="form-group" action="" method="post">
-	<div class="form-group">
-		<input class="form-control" type="text" name="username" placeholder="Type Your Name Please">
-	</div>
-	<div class="form-group">
-		<input class="form-control" type="email" name="email" placeholder="Type Your Email Please">
-	</div>
-	<div class="form-group">
-		<textarea class="form-control" name="message" placeholder="Type Your Message Please"></textarea>
-	</div>
-	<div class="form-group">
-		<input class="btn btn-primary btn-block" type="submit" name="send_message" value="Send">
-	</div>
-</form>
-';
+function contact_us_form_capture()
+{
+	// Check For Contact Us
+	if ( array_key_exists( 'contact_us', $_POST ) ) {
+		$to = 'w.alhamoud@gmail.com';
+		$subject = 'Message For Contact';
+		$headers = array('Content-Type: text/html; charset=UTF-8');
+		$body = '';
 
-	return $content;
+		$body .= 'Subject : Message For Contact <br />';
+		$body .= 'Name: ' . $_POST['contact_name'] . '<br />';
+		$body .= 'Email: ' . $_POST['contact_email'] . '<br />';
+		$body .= 'Message: ' . $_POST['contact_message'] . '<br />';
+
+		// add_filter( 'wp_mail_content_type', 'set_html_content_type' );
+
+		wp_mail( $to, $subject, $body, $headers);
+		
+		// remove_filter( 'wp_mail_content_type', 'set_html_content_type' );
+
+	}
+
+	// Check For Ask us Service
+	if ( array_key_exists( 'ask_us', $_POST ) ) {
+		$to = 'w.alhamoud@gmail.com';
+		$subject = 'Message For Service';
+		$headers = array('Content-Type: text/html; charset=UTF-8');
+		$body = '';
+	
+		$body .= 'Subject : Message For Service <br />'; 
+		$body .= 'Name : ' . $_POST['ask_for_name'] . '<br />';
+		$body .= 'Email : ' . $_POST['ask_for_email'] . '<br />';
+		$body .= 'Address : ' . $_POST['ask_for_address'] . '<br />';
+		$body .= 'Phone Number : ' . $_POST['ask_for_phonenumber'] . '<br />';
+		$body .= 'Message : ' . $_POST['ask_for_message'] . '<br />';
+	
+		// add_filter( 'wp_mail_content_type', 'set_html_content_type' );
+	
+		wp_mail( $to, $subject, $body, $headers);
+		
+		// remove_filter( 'wp_mail_content_type', 'set_html_content_type' );	
+		}	
 }
+add_action( 'wp_head', 'contact_us_form_capture' );
 
-// add_shortcode( 'ask_for_service_form', 'ask_for_service_form' );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 function _check_active_widget() {

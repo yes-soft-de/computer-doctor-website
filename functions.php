@@ -15,6 +15,7 @@ function add_Spark_Js_Css_Files() {
 	wp_enqueue_style( 'owl-carousel-css', get_template_directory_uri() . '/css/owl.carousel.min.css' );
 	wp_enqueue_style( 'owl-theme-default-css', get_template_directory_uri() . '/css/owl.theme.default.min.css' );
 	wp_enqueue_style( 'style-css', get_template_directory_uri() . '/css/custom.css' );
+	wp_enqueue_style( 'animate-css', get_template_directory_uri() . '/css/animate.min.css' );
 
 	// Insert Script Fiels
 	wp_enqueue_script( 'jquery-js', get_template_directory_uri() . '/js/jquery-3.3.1.min.js', array(), false, true );

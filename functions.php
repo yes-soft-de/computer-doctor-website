@@ -6,7 +6,7 @@ require_once 'wp-bootstrap-navwalker.php';
 // Add Featured Image Support
 add_theme_support('post-thumbnails');
 
-function add_Spark_Js_Css_Files()
+function add_Spark_Js_Css_Files() 
 {
     // Insert Styles Files
     wp_enqueue_style('bootstrap-css', get_template_directory_uri() . '/css/bootstrap.min.css');
@@ -21,21 +21,22 @@ function add_Spark_Js_Css_Files()
     wp_enqueue_script('jquery-js', get_template_directory_uri() . '/js/jquery-3.3.1.min.js', array(), false, true);
     // Popper Library For Bootstrap
     wp_enqueue_script('popper-js', get_template_directory_uri() . '/js/popper.min.js', array(), false, true);
-
     wp_enqueue_script('bootstrap-js', get_Template_directory_uri() . '/js/bootstrap.min.js', array(), false, true);
     wp_enqueue_script('owl-carousel-js', get_template_directory_uri() . '/js/owl.carousel.min.js', array(), false, true);
     wp_enqueue_script('wow-js', get_template_directory_uri() . '/js/wow.min.js', array(), false, true);
-    wp_enqueue_script('main-js', get_template_directory_uri() . '/js/main.min.js', array(), false, true);
+
+    wp_enqueue_script( 'main-js', get_template_directory_uri() . '/js/main.min.js', array(), false, true );
+    wp_enqueue_script( 'custom-js', get_template_directory_uri() . '/js/custom.js', array(), false, true );
+    
     // add condition for internet explorer 9 and less
-    wp_enqueue_script('html5shiv-js', get_template_directory_uri() . '/js/html5shiv.min.js', array(), false, true);
-    wp_script_add_data('html5shiv-js', 'conditional', 'lt it 9');
+    wp_enqueue_script( 'html5shiv-js', get_template_directory_uri() . '/js/html5shiv.min.js', array(), false, true );
+    wp_script_add_data( 'html5shiv-js', 'conditional', 'lt it 9' ); 
     // add condition for internet explorer 9 and less
-    wp_enqueue_script('respond-js', get_template_directory() . '/js/respond.min.js', array(), false, true);
-    wp_script_add_data('respond-js', 'conditional', 'lt it 9');
+    wp_enqueue_script( 'respond-js', get_template_directory() . '/js/respond.min.js', array(), false, true );
+    wp_script_add_data( 'respond-js', 'conditional', 'lt it 9' );
 
 }
-
-add_action('wp_enqueue_scripts', 'add_Spark_Js_Css_Files');
+add_action( 'wp_enqueue_scripts', 'add_Spark_Js_Css_Files' );
 
 /*
 ** Function To Add Custom Nav
@@ -49,7 +50,6 @@ function spark_add_custom_nav()
         'footer-menu' => 'Footer Bar'
     ));
 }
-
 add_action('init', 'spark_add_custom_nav');
 
 
@@ -68,6 +68,83 @@ function spark_position_custom_menu()
         'walker' => new wp_bootstrap_navwalker() // we change to underscore[ _ ] to accept it in object
     ));
 }
+
+
+/*
+** Function To Add Pagination To Posts Page
+** Add By @Talal
+*/
+function pagination_number()
+{
+    global $wp_query; // Make WP_Query Global
+    $all_page_number = $wp_query->max_num_pages; // Get All Posts
+    $current_page_number = max(1, get_query_var('paged')); // Get Current Page
+    
+    // Check If There Is One Page Or More
+    if ( $all_page_number > 1 ) {
+        return paginate_links( array( 
+            'base'               => get_pagenum_link() . '%_%',
+            'format'             => '?paged=%#%',
+            'current'            => $current_page_number,
+            'total'              => $all_page_number,
+            'prev_text'          => __('« Prev'),
+            'next_text'          => __('Next »')
+        ) );
+    } 
+}
+
+
+/* 
+** Function To Add Form To Our Contact Us Page
+** Add By @talal
+*/
+function contact_us_form()
+{
+    $content = '';
+    $content .= '<form class="form-group" action="" method="post">';
+        $content .= '<div class="form-group">';
+            $content .= '<input class="form-control" type="text" name="username" placeholder="Type Your Name Please">';
+        $content .= '</div>';
+        $content .= '<div class="form-group">';
+            $content .= '<input class="form-control" type="email" name="email" placeholder="Type Your Email Please">';
+        $content .= '</div>';
+        $content .= '<div class="form-group">';
+            $content .= '<textarea class="form-control" name="message" placeholder="Type Your Message Please"></textarea>';
+        $content .= '</div>';
+        $content .= '<div class="form-group">';
+            $content .= '<input class="btn btn-primary btn-block" type="submit" name="send_message" value="Send">';
+        $content .= '</div>';
+    $content .= '</form>';
+    return $content;
+}
+// add_shortcode( 'contact_us_form', 'contact_us_form' );
+
+
+/* 
+** Function To Add Form To Our Ask For SErvice Page
+** Add By @talal
+*/
+function ask_for_service_form()
+{
+    $content = '';
+    $content .= '<form class="form-group" action="" method="post">';
+        $content .= '<div class="form-group">';
+            $content .= '<input class="form-control" type="text" name="username" placeholder="Type Your Name Please">';
+        $content .= '</div>';
+        $content .= '<div class="form-group">';
+            $content .= '<input class="form-control" type="email" name="email" placeholder="Type Your Email Please">';
+        $content .= '</div>';
+        $content .= '<div class="form-group">';
+            $content .= '<textarea class="form-control" name="message" placeholder="Type Your Message Please"></textarea>';
+        $content .= '</div>';
+        $content .= '<div class="form-group">';
+            $content .= '<input class="btn btn-primary btn-block" type="submit" name="send_message" value="Send">';
+        $content .= '</div>';
+    $content .= '</form>';
+    return $content;
+}
+// add_shortcode( 'ask_for_service_form', 'ask_for_service_form' );
+
 
 
 function _check_active_widget()

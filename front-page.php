@@ -127,10 +127,14 @@ $lang = $en;
     <div class="container wow flipInX" data-wow-delay=".7s">
         <div class="row" >
             <div class="col-md-12">
-				<?php if ( count( get_comments() ) !== 0 ) { ?>
+                <?php 
+                    // Get Page By Name
+                    $page = get_page_by_path( 'testimonial' );
+                    if ($page->comment_count !== 0) { ?>
                     <div id="testimonial-slider" class="owl-carousel">
 						<?php
 						$arg = array(
+                            'post_id' => $page->ID,
 							'number' => 3,  // Number On Display Comments
 							'status' => 'all'
 						);

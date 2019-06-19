@@ -1,14 +1,22 @@
 /*Main variable*/
-root {
+:root {
+    scroll-behavior: smooth;
+
     --main-font: 'Montserrat', sans-serif;
     --second-font: 'Open Sans', sans-serif;
-    /*--dark-danger: #be2e3c;*/
+
+    --dark: #343a40;
+    --danger: #dc3545;
+    /*--dark-danger: #be2e3c; !* **||*|| Change It In Code ||*||** *! */
+    --white: #fff;
+    --white-smoke: #eee;
+    --gray: #868e96;
+
+    --footer-color: #cad2e1;
+    --footer-color-bg: #333;
 }
 
 /*Global Style*/
-* {
-}
-
 .w-10 {
     width: 10%;
 }
@@ -368,7 +376,7 @@ header .register a:not(:last-child):after {
     font-family: var(--main-font);
     font-size: 20px;
     font-weight: 400;
-    color: #333333;
+    color: var(--dark);
     letter-spacing: 2px;
     line-height: 24px;
     margin: 20px 0;
@@ -379,7 +387,7 @@ header .register a:not(:last-child):after {
     font-family: var(--second-font);
     font-size: 13px;
     font-weight: 400;
-    color: #8f96a1;
+    color: var(--gray);
     line-height: 24px;
 }
 
@@ -418,15 +426,14 @@ header .register a:not(:last-child):after {
 .about-us {
     padding-top: 60px;
     padding-bottom: 60px;
-    color: #f4f4f4;
-    background-color: #000;
+    color: var(--white-smoke);
+    background-color: var(--dark);
 }
 
 .about-us h2 {
     font-family: var(--main-font);
     font-size: 34px;
     font-weight: 400;
-    /*color: #333333;*/
     color: var(--danger);
     line-height: 32px;
     letter-spacing: 1px;
@@ -438,7 +445,6 @@ header .register a:not(:last-child):after {
     font-family: var(--main-font);
     font-size: 15px;
     font-weight: 400;
-    /*color: #333333;*/
     line-height: 24px;
     letter-spacing: 1px;
 }
@@ -472,7 +478,7 @@ header .register a:not(:last-child):after {
     font-family: var(--main-font);
     font-size: 34px;
     font-weight: 400;
-    color: #333333;
+    color: var(--dark);
     line-height: 32px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -484,7 +490,7 @@ header .register a:not(:last-child):after {
     font-family: var(--second-font);
     font-size: 16px;
     font-weight: 400;
-    color: #737881;
+    color: var(--gray);
     line-height: 24px;
 }
 
@@ -529,15 +535,14 @@ header .register a:not(:last-child):after {
 
 /*Start What-Customer-Say Section*/
 .what-say {
-    background: #000 !important;
-    padding-top: 75px !important;
+    background: var(--dark);
+    padding-top: 75px;
 }
 
 .what-say h2 {
     font-family: var(--main-font);
     font-size: 34px;
     font-weight: 400;
-    /*color: #333333;*/
     color: var(--danger);
     line-height: 32px;
     letter-spacing: 1px;
@@ -552,7 +557,7 @@ header .register a:not(:last-child):after {
 .what-say .testimonial .testimonial-content {
     padding: 35px 25px 35px 50px;
     margin-bottom: 35px;
-    background: #fff;
+    background: var(--white);
     position: relative;
 }
 
@@ -579,13 +584,28 @@ header .register a:not(:last-child):after {
 .what-say .testimonial-content .testimonial-icon {
     width: 50px;
     height: 45px;
-    background:var(--danger);
+    background: var(--danger);
     text-align: center;
     font-size: 22px;
-    color: #fff;
+    color: var(--white);
     line-height: 42px;
     position: absolute;
     top: 37px;
+    left: -19px;
+}
+
+.what-say .testimonial-content .testimonial-icon-stars {
+    top: 82px;
+    font-size: 21px;
+    background: var(--yellow);
+    padding-left: 4px;
+
+    width: 50px;
+    height: 45px;
+    text-align: center;
+    color: var(--white);
+    line-height: 42px;
+    position: absolute;
     left: -19px;
 }
 
@@ -601,16 +621,17 @@ header .register a:not(:last-child):after {
 .what-say .testimonial .description {
     font-size: 15px;
     font-style: italic;
-    color: #8a8a8a;
+    color: var(--gray);
     line-height: 23px;
     margin: 0;
+    min-height: 86px;
 }
 
 .what-say .testimonial .title {
     display: block;
     font-size: 18px;
     font-weight: 700;
-    color: #b6c7be;
+    color: var(--white-smoke);
     text-transform: capitalize;
     letter-spacing: 1px;
     margin: 0 0 5px 0;
@@ -923,12 +944,13 @@ h4.comment-number {
 
 /*Start Footer*/
 footer {
-    font-family: var(--danger);
+    font-family: var(--second-font);
     font-size: 14px;
     font-weight: 400;
-    color: #8f96a1;
     letter-spacing: 1px;
     line-height: 24px;
+    color: var(--footer-color);
+    background-color: var(--footer-color-bg);
 }
 
 footer img {

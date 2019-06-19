@@ -92,6 +92,32 @@ function pagination_number() {
 	}
 }
 
+
+
+/*
+** Function To Make Excerpt From Our Post Content
+** Add By @Talal
+** filter -> excerpt_length
+*/
+function post_content_excerpt_filter()
+{
+    return 15;
+}
+add_filter( 'excerpt_length', 'post_content_excerpt_filter' );
+
+/*
+** Function To Edit The Extend Dot Filter
+** Add By @Talal
+** filter -> excerpt_more
+*/
+function post_content_extend_dot_filter()
+{
+    return '...';
+}
+add_filter( 'excerpt_more', 'post_content_extend_dot_filter' );
+
+
+
 /*
 ** Function To Change the Header For The Email 
 */

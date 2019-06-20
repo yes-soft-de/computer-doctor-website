@@ -729,7 +729,6 @@ header .register a:not(:last-child):after {
     z-index: 1111;
     width: 117px;
     height: 33px;
-    background: darkred;
 }
 
 /*End What-Customer-Say Section*/

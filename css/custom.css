@@ -604,9 +604,11 @@ header .register a:not(:last-child):after {
     height: 1.65px;
     background-color: #dc3545;
 }
+
 .what-say .read_more a {
     color: #fff
 }
+
 .what-say .read_more:hover a {
     text-decoration: none;
     color: #dc3545
@@ -718,6 +720,16 @@ header .register a:not(:last-child):after {
 .what-say .owl-theme .owl-controls .owl-page.active span,
 .what-say .owl-theme .owl-controls.clickable .owl-page:hover span {
     background: var(--danger);
+}
+
+.what-say .read-more {
+    top: 63px;
+    left: 0;
+    position: absolute;
+    z-index: 1111;
+    width: 117px;
+    height: 33px;
+    background: darkred;
 }
 
 /*End What-Customer-Say Section*/
@@ -835,7 +847,7 @@ h4.comment-number {
     font-size: 14px;
 }
 
-.comments-list > .comment { /*Level One For Directe Child*/
+.comments-list > .comment { /*Level One For Direct Child*/
     background-color: #fff;
     padding: 10px;
     margin-top: 10px;
@@ -917,8 +929,7 @@ h4.comment-number {
 }
 
 .comment-respond p {
-    margin: 0; /*reset*/
-    margin-bottom: 5px;
+    margin: 0 0 5px;
     color: #666;
 }
 

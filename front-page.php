@@ -78,6 +78,22 @@ $en = [
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="brands-carousel" id="brands-carousel">
+            <div class="mx-2 mb-5 mt-3"><img class="image" width="150" height="150" src="<?php echo get_template_directory_uri() ?>/img/logo/hp.svg" alt="brand"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image" width="150" height="150" src="<?php echo get_template_directory_uri() ?>/img/logo/dell.svg" alt="brand"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image" width="150" height="150" src="<?php echo get_template_directory_uri() ?>/img/logo/samsung.svg" alt="brand"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image" width="150" height="150" src="<?php echo get_template_directory_uri() ?>/img/logo/lenovo.png" alt="brand"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image" width="150" height="150" src="<?php echo get_template_directory_uri() ?>/img/logo/toshiba.png" alt="brand"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image" width="150" height="150" src="<?php echo get_template_directory_uri() ?>/img/logo/acer.svg" alt="brand"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image" width="150" height="150" src="<?php echo get_template_directory_uri() ?>/img/logo/sony.svg" alt="brand"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image" width="150" height="150" src="<?php echo get_template_directory_uri() ?>/img/logo/itautec.svg" alt="brand"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image" width="150" height="150" src="<?php echo get_template_directory_uri() ?>/img/logo/Philco.svg" alt="brand"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image" width="150" height="150" src="<?php echo get_template_directory_uri() ?>/img/logo/cce.svg" alt="brand"></div>
+<!--            <div class="mx-2 mb-5 mt-3"><img class="image" width="150" height="150" src="--><?php //echo get_template_directory_uri() ?><!--/img/logo/positivo.jpg" alt="brand"></div>-->
+<!--            <div class="mx-2 mb-5 mt-3"><img class="image" width="150" height="150" src="--><?php //echo get_template_directory_uri() ?><!--/img/logo/MegaWear.jpg" alt="brand"></div>-->
+        </div>
+    </div>
 </div>
 <!--End Services Section-->
 

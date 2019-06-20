@@ -724,11 +724,12 @@ header .register a:not(:last-child):after {
 
 .what-say .read-more {
     top: 63px;
-    left: 0;
+    right: 0;
     position: absolute;
     z-index: 1111;
     width: 117px;
     height: 33px;
+    color: var(--white-smoke);
 }
 
 /*End What-Customer-Say Section*/

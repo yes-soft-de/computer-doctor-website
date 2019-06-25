@@ -46,7 +46,7 @@ $en = [
                 <p class="wow fadeInDown" data-wow-delay="0s">Assistência técnica de notebook e MacBook</p>
                 <h1 class="wow fadeInDown" data-wow-delay=".2s">ASSISTÊNCIA</h1>
                 <hr class="wow fadeIn" data-wow-delay=".5s">
-                <button class="wow fadeInUp" id="learn-more" data-wow-delay=".5s">learn more</button>
+                <button class="wow fadeInUp" id="learn-more" data-wow-delay=".5s">Saber mais</button>
             </div>
         </div>
     </div>
@@ -63,16 +63,16 @@ $en = [
             <div class="s-card-body">
                 <h5 class="s-card-title wow zoomInDown" data-wow-duration="1.5s">Assistência</h5>
                 <p class="s-card-text wow zoomInDown text-left" data-wow-duration="1.5s" data-wow-delay=".3s">
-                    • Troca De tela, Teclado, Carcaça, e Placa mãe do notebook.
+                    •	Troca De tela, Teclado, Carcaça, e Placa mãe do notebook.
                     <br>
-                    • Reparo na placa mãe, ressoldar os componentes oxidados, fazemos BGA, tirar um curto na placa.
+                    •	Reparo na placa mãe, ressoldar os componentes oxidados, fazemos BGA, tirar um curto na placa.
                     <br>
-                    • Resinar as carcaças que quebrou e devolver o notebook para estado perfeito dele.
+                    •	Resinar as carcaças que quebrou e devolver o notebook para estado perfeito dele.
                     <br>
-                    • Fazemos upgrade para todos os notebooks, instalamos SSD e aumentamos a memória RAM para obter à
+                    •	Fazemos upgrade para todos os notebooks, instalamos SSD e aumentamos a memória RAM para obter à
                     maior velocidade possível.
                     <br>
-                    • Manutenção periódica do cooler (ventoinha) e troca da pasta térmica.
+                    •	Manutenção periódica do cooler (ventoinha) e troca da pasta térmica.
                 </p>
             </div>
         </div>
@@ -95,36 +95,17 @@ $en = [
     </div>
     <div class="container">
         <div class="brands-carousel" id="brands-carousel">
-            <div class="mx-2 mb-5 mt-3"><img class="image"
-                                             src="<?php echo get_template_directory_uri() ?>/img/logo/hp.svg"
-                                             alt="brand"></div>
-            <div class="mx-2 mb-5 mt-3"><img class="image"
-                                             src="<?php echo get_template_directory_uri() ?>/img/logo/dell.svg"
-                                             alt="brand"></div>
-            <div class="mx-2 mb-5 mt-3"><img class="image"
-                                             src="<?php echo get_template_directory_uri() ?>/img/logo/samsung.svg"
-                                             alt="brand"></div>
-            <div class="mx-2 mb-5 mt-3"><img class="image"
-                                             src="<?php echo get_template_directory_uri() ?>/img/logo/lenovo.png"
-                                             alt="brand"></div>
-            <div class="mx-2 mb-5 mt-3"><img class="image"
-                                             src="<?php echo get_template_directory_uri() ?>/img/logo/toshiba.png"
-                                             alt="brand"></div>
-            <div class="mx-2 mb-5 mt-3"><img class="image"
-                                             src="<?php echo get_template_directory_uri() ?>/img/logo/acer.svg"
-                                             alt="brand"></div>
-            <div class="mx-2 mb-5 mt-3"><img class="image"
-                                             src="<?php echo get_template_directory_uri() ?>/img/logo/sony.svg"
-                                             alt="brand"></div>
-            <div class="mx-2 mb-5 mt-3"><img class="image"
-                                             src="<?php echo get_template_directory_uri() ?>/img/logo/itautec.svg"
-                                             alt="brand"></div>
-            <div class="mx-2 mb-5 mt-3"><img class="image"
-                                             src="<?php echo get_template_directory_uri() ?>/img/logo/Philco.svg"
-                                             alt="brand"></div>
-            <div class="mx-2 mb-5 mt-3"><img class="image"
-                                             src="<?php echo get_template_directory_uri() ?>/img/logo/cce.svg"
-                                             alt="brand"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image" src="<?php echo get_template_directory_uri() ?>/img/logo/apple.svg" alt="apple" title="apple"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image" src="<?php echo get_template_directory_uri() ?>/img/logo/hp.svg" alt="hp" title="hp"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image" src="<?php echo get_template_directory_uri() ?>/img/logo/dell.svg" alt="dell" title="dell"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image" src="<?php echo get_template_directory_uri() ?>/img/logo/samsung.svg" alt="samsung" title="samsung"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image" src="<?php echo get_template_directory_uri() ?>/img/logo/lenovo.png" alt="lenovo" title="lenovo"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image" src="<?php echo get_template_directory_uri() ?>/img/logo/toshiba.png" alt="toshiba" title="toshiba"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image" src="<?php echo get_template_directory_uri() ?>/img/logo/acer.svg" alt="acer" title="acer"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image" src="<?php echo get_template_directory_uri() ?>/img/logo/sony.svg" alt="sony" title="sony"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image" src="<?php echo get_template_directory_uri() ?>/img/logo/itautec.svg" alt="itautec" title="itautec"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image" src="<?php echo get_template_directory_uri() ?>/img/logo/Philco.svg" alt="Philco" title="Philco"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image" src="<?php echo get_template_directory_uri() ?>/img/logo/cce.svg" alt="cce" title="cce"></div>
             <!--            <div class="mx-2 mb-5 mt-3"><img class="image" src="-->
             <?php //echo get_template_directory_uri() ?><!--/img/logo/positivo.jpg" alt="brand"></div>-->
             <!--            <div class="mx-2 mb-5 mt-3"><img class="image" src="-->

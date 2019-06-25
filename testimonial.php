@@ -4,7 +4,7 @@
 
 <!--Start Testimonial Page-->
 <div class="testimonial-page">
-    <div class="container">    
+    <div class="container">
         <?php comments_template(); ?>
     </div>
 </div>

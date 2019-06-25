@@ -43,10 +43,10 @@ $en = [
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <p class="wow fadeInDown" data-wow-delay="0s">laptop and mac book</p>
-                <h1 class="wow fadeInDown" data-wow-delay=".2s">TECHNICAL ASSISTANCE</h1>
+                <p class="wow fadeInDown" data-wow-delay="0s">Assistência técnica de notebook e MacBook</p>
+                <h1 class="wow fadeInDown" data-wow-delay=".2s">ASSISTÊNCIA</h1>
                 <hr class="wow fadeIn" data-wow-delay=".5s">
-                <button class="wow fadeInUp" data-wow-delay=".5s">learn more</button>
+                <button class="wow fadeInUp" id="learn-more" data-wow-delay=".5s">learn more</button>
             </div>
         </div>
     </div>
@@ -61,9 +61,18 @@ $en = [
                  src="<?php echo get_template_directory_uri() . '/img/Laptop-repairing-service.jpg' ?>"
                  alt="img" width="287" height="192">
             <div class="s-card-body">
-                <h5 class="s-card-title wow zoomInDown" data-wow-duration="1.5s">Maintenance</h5>
-                <p class="s-card-text wow zoomInDown" data-wow-duration="1.5s" data-wow-delay=".3s">
-                    Some quick example text to build on the card title and make up the bulk of the card\'s content.
+                <h5 class="s-card-title wow zoomInDown" data-wow-duration="1.5s">Assistência</h5>
+                <p class="s-card-text wow zoomInDown text-left" data-wow-duration="1.5s" data-wow-delay=".3s">
+                    • Troca De tela, Teclado, Carcaça, e Placa mãe do notebook.
+                    <br>
+                    • Reparo na placa mãe, ressoldar os componentes oxidados, fazemos BGA, tirar um curto na placa.
+                    <br>
+                    • Resinar as carcaças que quebrou e devolver o notebook para estado perfeito dele.
+                    <br>
+                    • Fazemos upgrade para todos os notebooks, instalamos SSD e aumentamos a memória RAM para obter à
+                    maior velocidade possível.
+                    <br>
+                    • Manutenção periódica do cooler (ventoinha) e troca da pasta térmica.
                 </p>
             </div>
         </div>
@@ -71,27 +80,55 @@ $en = [
             <img class="s-card-img wow fadeInRight" src="<?php echo get_template_directory_uri() . '/img/laptop.png' ?>"
                  alt="img" width="287" height="192">
             <div class="s-card-body">
-                <h5 class="s-card-title wow zoomInDown" data-wow-duration="1.5s">Buy Laptops</h5>
-                <p class="s-card-text wow zoomInDown" data-wow-duration="1.5s" data-wow-delay=".3s">
-                    Some quick example text to build on the card title and make up the bulk of the card\'s content.
+                <h5 class="s-card-title wow zoomInDown" data-wow-duration="1.5s">Vendas</h5>
+                <p class="s-card-text wow zoomInDown text-left" data-wow-duration="1.5s" data-wow-delay=".3s">
+                    • Venda de notebook de várias marcas de alta qualidade, modelos empresariais, HP, DELL e LENOVO,
+                    muito mais marcas, com garantia que chega até 6 meses.
+                    <br>
+                    • Base de troca, caso seu notebook está lento ou não funciona dê o seu de entrada e você só paga a
+                    diferença.
+                    <br>
+                    • Temos todos tipos de fontes para notebooks e MacBook .
                 </p>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="brands-carousel" id="brands-carousel">
-            <div class="mx-2 mb-5 mt-3"><img class="image" width="150" height="150" src="<?php echo get_template_directory_uri() ?>/img/logo/hp.svg" alt="brand"></div>
-            <div class="mx-2 mb-5 mt-3"><img class="image" width="150" height="150" src="<?php echo get_template_directory_uri() ?>/img/logo/dell.svg" alt="brand"></div>
-            <div class="mx-2 mb-5 mt-3"><img class="image" width="150" height="150" src="<?php echo get_template_directory_uri() ?>/img/logo/samsung.svg" alt="brand"></div>
-            <div class="mx-2 mb-5 mt-3"><img class="image" width="150" height="150" src="<?php echo get_template_directory_uri() ?>/img/logo/lenovo.png" alt="brand"></div>
-            <div class="mx-2 mb-5 mt-3"><img class="image" width="150" height="150" src="<?php echo get_template_directory_uri() ?>/img/logo/toshiba.png" alt="brand"></div>
-            <div class="mx-2 mb-5 mt-3"><img class="image" width="150" height="150" src="<?php echo get_template_directory_uri() ?>/img/logo/acer.svg" alt="brand"></div>
-            <div class="mx-2 mb-5 mt-3"><img class="image" width="150" height="150" src="<?php echo get_template_directory_uri() ?>/img/logo/sony.svg" alt="brand"></div>
-            <div class="mx-2 mb-5 mt-3"><img class="image" width="150" height="150" src="<?php echo get_template_directory_uri() ?>/img/logo/itautec.svg" alt="brand"></div>
-            <div class="mx-2 mb-5 mt-3"><img class="image" width="150" height="150" src="<?php echo get_template_directory_uri() ?>/img/logo/Philco.svg" alt="brand"></div>
-            <div class="mx-2 mb-5 mt-3"><img class="image" width="150" height="150" src="<?php echo get_template_directory_uri() ?>/img/logo/cce.svg" alt="brand"></div>
-<!--            <div class="mx-2 mb-5 mt-3"><img class="image" width="150" height="150" src="--><?php //echo get_template_directory_uri() ?><!--/img/logo/positivo.jpg" alt="brand"></div>-->
-<!--            <div class="mx-2 mb-5 mt-3"><img class="image" width="150" height="150" src="--><?php //echo get_template_directory_uri() ?><!--/img/logo/MegaWear.jpg" alt="brand"></div>-->
+            <div class="mx-2 mb-5 mt-3"><img class="image"
+                                             src="<?php echo get_template_directory_uri() ?>/img/logo/hp.svg"
+                                             alt="brand"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image"
+                                             src="<?php echo get_template_directory_uri() ?>/img/logo/dell.svg"
+                                             alt="brand"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image"
+                                             src="<?php echo get_template_directory_uri() ?>/img/logo/samsung.svg"
+                                             alt="brand"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image"
+                                             src="<?php echo get_template_directory_uri() ?>/img/logo/lenovo.png"
+                                             alt="brand"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image"
+                                             src="<?php echo get_template_directory_uri() ?>/img/logo/toshiba.png"
+                                             alt="brand"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image"
+                                             src="<?php echo get_template_directory_uri() ?>/img/logo/acer.svg"
+                                             alt="brand"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image"
+                                             src="<?php echo get_template_directory_uri() ?>/img/logo/sony.svg"
+                                             alt="brand"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image"
+                                             src="<?php echo get_template_directory_uri() ?>/img/logo/itautec.svg"
+                                             alt="brand"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image"
+                                             src="<?php echo get_template_directory_uri() ?>/img/logo/Philco.svg"
+                                             alt="brand"></div>
+            <div class="mx-2 mb-5 mt-3"><img class="image"
+                                             src="<?php echo get_template_directory_uri() ?>/img/logo/cce.svg"
+                                             alt="brand"></div>
+            <!--            <div class="mx-2 mb-5 mt-3"><img class="image" src="-->
+            <?php //echo get_template_directory_uri() ?><!--/img/logo/positivo.jpg" alt="brand"></div>-->
+            <!--            <div class="mx-2 mb-5 mt-3"><img class="image" src="-->
+            <?php //echo get_template_directory_uri() ?><!--/img/logo/MegaWear.jpg" alt="brand"></div>-->
         </div>
     </div>
 </div>
@@ -100,15 +137,17 @@ $en = [
 <!--Start About-Us Section-->
 <div class="about-us text-center " id="about-us">
     <div class="container">
-        <h2 class="wow bounceIn">About Us</h2>
+        <h2 class="wow bounceIn" style="margin-bottom: 30px">Quim somos</h2>
         <div class="wow flipInX" data-wow-delay=".5s">
-            <p>We Are Creative Company</p>
+            <!--            <p>We Are Creative Company</p>-->
             <hr>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a nulla felis. Nullam id metus gravida,
-                gravida nulla non, ultrices justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec
-                vel velit tempor, varius orci quis, consequat nunc. Suspendisse laoreet dictum fermentum. Aenean quis
-                Sed eget hendrerit lorem, ut vestibulum arcu. Fusce elementum vehicula odio et accumsan.
+                Fundada em 2016, somos uma assistência Técnica E vendedor de notebooks e MacBooks usados em são paulo.
+                Ao longo da nossa história, sempre fornecemos aos nossos clientes produtos e serviços de alta qualidade
+                com o melhor valor. Enquanto o ritmo do desenvolvimento tecnológico é sem precedentes, as chaves para o
+                nosso sucesso ao longo dos anos não mudaram. Constantemente aprimoramos nossas práticas de negócios,
+                armazenamos os produtos mais durabilidade e desenvolvemos nossa experiência e apaixonada equipe de
+                profissionais.
             </p>
         </div>
     </div>
@@ -118,7 +157,7 @@ $en = [
 <!--Start Opening-Hours Section-->
 <div class="open-hours text-center" id="open-hours">
     <div class="container">
-        <h2 class="text-center wow flipInX">Opening Hours</h2>
+        <h2 class="text-center wow flipInX">Horário de funcionamento<!--Opening Hours--></h2>
 
         <div class="row wow flipInX" data-wow-delay=".5s">
             <div class="col-md-6 img text-md-right align-self-center">
@@ -126,12 +165,15 @@ $en = [
                      alt="Open-Hours-Img" height="160">
             </div>
             <div class="col-md-6 text text-md-left pt-md-5 py-md-4 py-sm-2">
+                <!-- From Sept to Fri : from 09hrs to 18hrs-->
+                <!-- Sturday: 09hrs to 15hrs-->
+                <!-- Sunday: closed-->
                 <p>
-                    From Sept to Fri : from 09hrs to 18hrs
+                    Da Seguna a Sexta: das 09hrs as 18hrs
                     <br>
-                    Sturday: 09hrs to 15hrs
+                    Sabado: 09hrs as 15hrs
                     <br>
-                    Sunday: closed
+                    Domingo: fechado
                 </p>
             </div>
 
@@ -177,7 +219,6 @@ $en = [
                             </div>
                             <?php
                         }
-
                         ?>
                     </div>
                     <?php
@@ -186,7 +227,8 @@ $en = [
                 } ?>
             </div>
             <p class="read_more text-center" style="position: relative;">
-                <a class="read-more" href="<?php echo get_permalink(get_page_by_path('testimonial')->ID) ?>">Read More
+                <a class="read-more" href="<?php echo get_permalink(get_page_by_path('testimonial')->ID) ?>">
+                    <span class="invisible">Read More  s</span>
                     >></a>
             </p>
 

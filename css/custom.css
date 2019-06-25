@@ -468,7 +468,16 @@ header .register a:not(:last-child):after {
     color: #dc3545;
     text-align: center;
 }
-
+.brands-carousel .image {
+    width: 150px;
+    height: 150px;
+}
+@media (max-width: var(--breakpoint-md)) {
+    .brands-carousel img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+}
 /*Start Single Services Page*/
 
 /*Start About Us Section*/
@@ -596,7 +605,7 @@ header .register a:not(:last-child):after {
     line-height: 32px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    padding-bottom: 55px;
+    padding-bottom: 30px;
 }
 
 .what-say hr {

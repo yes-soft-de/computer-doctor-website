@@ -1,7 +1,7 @@
 <?php
 // Check If Comments Is Open Or Not
 if ( comments_open( ) ) {
-    echo '<h2 class="text-center">What They Say About Us</h2>';
+    echo '<h2 class="text-center">O que eles dizem sobre nós</h2>';
 
     echo '<ul class="list-unstyled comments-list">';
     // Gather comments for a specific page/post
@@ -18,12 +18,12 @@ if ( comments_open( ) ) {
     
     // Check If There Is Comment Or Not
     if (count($comments) == 0) {
-        echo '<div class="col alert alert-secondary bg-white text-center ">There Is Nothing To Show Yet, Please Tell Us Your Opinion</div>';
+        echo '<div class="col alert alert-secondary bg-white text-center ">Não há nada para mostrar ainda, por favor, diga-nos a sua opinião</div>';
     }
     echo "<hr class='separate-line'>";
     // Comments Form
     comment_form();
 
 } else {
-    echo '<div class="col col-md-6 alert alert-info text-center mx-auto">Sorry The Comments Is Closed</div>';
+    echo '<div class="col col-md-6 alert alert-info text-center mx-auto">Desculpe, os comentários estão fechados</div>';
 }

@@ -73,6 +73,8 @@ $en = [
                     maior velocidade possível.
                     <br>
                     •	Manutenção periódica do cooler (ventoinha) e troca da pasta térmica.
+                    <br>
+                    •	Orçamento gratuito
                 </p>
             </div>
         </div>
@@ -118,7 +120,7 @@ $en = [
 <!--Start About-Us Section-->
 <div class="about-us text-center " id="about-us">
     <div class="container">
-        <h2 class="wow bounceIn" style="margin-bottom: 30px">Quim somos</h2>
+        <h2 class="wow bounceIn" style="margin-bottom: 30px">Quem somos</h2>
         <div class="wow flipInX" data-wow-delay=".5s">
             <!--            <p>We Are Creative Company</p>-->
             <hr>

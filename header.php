@@ -25,7 +25,7 @@
         <div class="float-md-left text-center my-1">
                 <span>
                     <i class="fa fa-phone fa-rotate-90 fa-fw"></i>
-                    <span>+963-992-598-009</span>
+                    <span>+5511947745838</span>
                 </span>
             &ensp;
             <span>
@@ -41,10 +41,10 @@
                 </span>
         </div>
         <div class="register float-md-right text-center my-1">
-            <a href="#">
-                <span>Br</span>
+            <a href="<?php echo get_site_url() ?>">
+                <span>Pr</span>
             </a>
-            <a href="#">
+            <a href="<?php echo get_site_url() ?>/en">
                 <span>En</span>
             </a>
         </div>
@@ -52,8 +52,11 @@
     <div class="clearfix"></div>
 </header>
 <!--Start NavBar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-white px-5 sticky-top border border-top-0">
-    <a class="navbar-brand" href="<?php echo get_site_url() ?>"><span class="text-danger">Doctor</span> NoteBook </a>
+<nav class="navbar navbar-expand-lg navbar-light bg-white px-5 py-0 sticky-top border border-top-0">
+    <a class="navbar-brand" href="<?php echo get_site_url() ?>">
+<!--        <span class="text-danger">Doctor</span> NoteBook-->
+        <img class="img" alt="logo"  src="<?php echo get_template_directory_uri() . '/img/logo-white.png' ?>"/>
+    </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

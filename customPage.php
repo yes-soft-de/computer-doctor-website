@@ -6,8 +6,8 @@
 <div class="contact_ask_us">
     <div class="container">
         <h2 class="h1 mt-5">
-            <span class="selected" data-class="contact-us">Contact Us</span> |
-            <span data-class="ask-us">Ask For Service</span>
+            <span class="selected" data-class="contact-us">Contate-nos </span> |
+            <span data-class="ask-us">Peça serviço</span>
         </h2>
         <div class="row">
             <div class="col-12 contact-us">
@@ -19,7 +19,7 @@
                             class="form-control" 
                             type="text" 
                             name="contact_name"  
-                            placeholder="Type Your Name"
+                            placeholder="Your Name"
                             required>
                     </div>
                     <div class="form-group">
@@ -27,13 +27,13 @@
                             class="form-control" 
                             type="email" 
                             name="contact_email"  
-                            placeholder="Type Your Email"
+                            placeholder="Your Email"
                             required>
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" name="contact_message" placeholder="Type Your Message" required></textarea>
+                        <textarea class="form-control" name="contact_message" placeholder="Your Message" required></textarea>
                     </div>
-                    <input class="btn btn-primary btn-block" type="submit" name="contact_us" value="Send">
+                    <input class="btn btn-primary btn-block" type="submit" name="contact_us" value="Mandar">
                 </form>
             </div>
             <div class="col-12 ask-us">
@@ -43,7 +43,7 @@
                             class="form-control" 
                             type="text" 
                             name="ask_for_name"  
-                            placeholder="Type Your Name"
+                            placeholder="Your Name"
                             required>
                     </div>
                     <div class="form-group">
@@ -51,7 +51,7 @@
                             class="form-control" 
                             type="email" 
                             name="ask_for_email" 
-                            placeholder="Type Your Email"
+                            placeholder="Your Email"
                             required>
                     </div>
                     <div class="form-group">
@@ -59,7 +59,7 @@
                             class="form-control" 
                             type="text" 
                             name="ask_for_address"
-                            placeholder="Type Your Address"
+                            placeholder="Your Address"
                             required>
                     </div>
                     <div class="form-group">
@@ -67,13 +67,13 @@
                             class="form-control" 
                             type="phone" 
                             name="ask_for_phonenumber" 
-                            placeholder="Type Avalid Phone Number"
+                            placeholder="Avalid Phone Number"
                             required>
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" name="ask_for_message" placeholder="Type Your Message" required></textarea>
+                        <textarea class="form-control" name="ask_for_message" placeholder="Your Message" required></textarea>
                     </div>                    
-                    <input class="btn btn-success btn-block" type="submit" name="ask_us" value="Send">
+                    <input class="btn btn-success btn-block" type="submit" name="ask_us" value="Mandar">
                 </form>
             </div>
         </div>

@@ -62,6 +62,16 @@ header .register a:not(:last-child):after {
     font-weight: bold;
 }
 
+.navbar-brand img {
+    width: 200px;
+}
+
+@media (max-width: var(--breakpoint-md)) {
+    .navbar-brand img {
+        max-width: 150px;
+    }
+}
+
 .navbar li {
     padding-left: 15px
 }
@@ -100,7 +110,7 @@ header .register a:not(:last-child):after {
     color: #ffffff;
     line-height: 24px;
     letter-spacing: 2px;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .header h1 {
@@ -123,7 +133,7 @@ header .register a:not(:last-child):after {
     background: transparent;
     color: #fff;
     padding: 10px 35px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     border: 3px solid #fff;
 }
 
@@ -442,7 +452,7 @@ header .register a:not(:last-child):after {
 
 /*Start Single Services Page*/
 .services-page {
-    padding: 30px 0 100px;
+    padding: 30px 0 0;
     background-color: rgba(248, 249, 250, 0.74);
 }
 
@@ -452,32 +462,35 @@ header .register a:not(:last-child):after {
     border: 1px solid #dc3545;
     border-radius: 5px;
     margin: 20px 0;
-    color: rgb(81, 127, 134);
+    color: var(--danger);
 }
 
 .services-page .service {
-    background: rgba(236, 236, 236, 0.63);
+    background: var(--white-smoke);
     border-radius: 5px;
-    padding: 15px;
+    padding: 30px;
     margin-bottom: 15px;
-    color: #666;
+    color: var(--gray-dark);
     text-align: justify;
 }
 
 .services-page .service h4 {
-    color: #dc3545;
+    color: var(--dark);
     text-align: center;
 }
+
 .brands-carousel .image {
     width: 150px;
     height: 150px;
 }
+
 @media (max-width: var(--breakpoint-md)) {
     .brands-carousel img {
         max-width: 100px;
         max-height: 100px;
     }
 }
+
 /*Start Single Services Page*/
 
 /*Start About Us Section*/

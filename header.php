@@ -2,23 +2,27 @@
 <html <?php language_attributes(); ?>>
 <head>
     <!-- Required meta tags -->
-    <meta charset="<?php bloginfo( 'charset' ) ?>"/>
+    <meta charset="<?php bloginfo('charset') ?>"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-    <title><?php bloginfo( 'name' ) ?></title>
-    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ) ?>"/>
+    <title><?php bloginfo('name') ?></title>
+    <link rel="pingback" href="<?php bloginfo('pingback_url') ?>"/>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143143056-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-143143056-1');
     </script>
 
-	<?php wp_head() ?>
+    <?php wp_head() ?>
     <style>
         .header {
             background: #333333 url("<?php echo get_template_directory_uri() . '/img/bg.jpg'?>") no-repeat;
@@ -53,7 +57,7 @@
         </div>
         <div class="register float-md-right text-center my-1">
             <a href="<?php echo get_site_url() ?>">
-                <span>Pr</span>
+                <span>Pt</span>
             </a>
             <a href="<?php echo get_site_url() ?>/en">
                 <span>En</span>
@@ -65,8 +69,8 @@
 <!--Start NavBar-->
 <nav class="navbar navbar-expand-lg navbar-light bg-white px-5 py-0 sticky-top border border-top-0">
     <a class="navbar-brand" href="<?php echo get_site_url() ?>">
-<!--        <span class="text-danger">Doctor</span> NoteBook-->
-        <img class="img" alt="logo"  src="<?php echo get_template_directory_uri() . '/img/logo-white.png' ?>"/>
+        <!--        <span class="text-danger">Doctor</span> NoteBook-->
+        <img class="img" alt="logo" src="<?php echo get_template_directory_uri() . '/img/logo-white.png' ?>"/>
     </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -75,7 +79,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <?php spark_position_custom_menu(); ?>
-        </div>
+        <?php spark_position_custom_menu(); ?>
+    </div>
 </nav>
 <!--End NavBar-->
